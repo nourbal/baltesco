@@ -1,4 +1,4 @@
-1587784284a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:10835:"description = "Default layout"
+1587786772a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:8475:"description = "Default layout"
 ==
 <!DOCTYPE html>
 <html>
@@ -26,46 +26,10 @@
 
         {% styles %}
     </head>
+
     <body>
 
-    <!-- Navigation -->
-      <a class="menu-toggle rounded" href="#">
-        <i class="fas fa-bars"></i>
-      </a>
-      <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-          <li class="sidebar-brand">
-            <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-          </li>
-          <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#page-top">Home</a>
-          </li>
-          <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#services">Services</a>
-          </li>
-          <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-
-      <!-- Header -->
-      <header class="masthead d-flex">
-        <div class="container text-center my-auto">
-          <h1 class="mb-1">Baltesco.com</h1>
-          <h3 class="mb-5">
-            <em>coopérative baltesco</em>
-          </h3>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
-        </div>
-        <div class="overlay"></div>
-      </header>
+      {% partial "header" %}
 
       <!-- About -->
       <section class="content-section bg-light" id="about">
@@ -215,34 +179,7 @@
         </small>
       </section>
 
-      <!-- Footer -->
-      <footer class="footer text-center">
-        <div class="container">
-          <ul class="list-inline mb-5">
-            <li class="list-inline-item">
-              <a class="social-link rounded-circle text-white mr-3" href="#">
-                <i class="icon-social-facebook"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="social-link rounded-circle text-white mr-3" href="#">
-                <i class="icon-social-twitter"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="social-link rounded-circle text-white" href="#">
-                <i class="icon-social-github"></i>
-              </a>
-            </li>
-          </ul>
-          <p class="text-muted small mb-0">Copyright &copy; baltesco 2020</p>
-        </div>
-      </footer>
-
-      <!-- Scroll to Top Button-->
-      <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-        <i class="fas fa-angle-up"></i>
-      </a>
+      {% partial "footer" %}
       
         
         
@@ -261,7 +198,7 @@
 
     </body>
 </html>
-";s:5:"mtime";i:1587783680;s:6:"markup";s:10800:"<!DOCTYPE html>
+";s:5:"mtime";i:1587786168;s:6:"markup";s:8440:"<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -287,46 +224,10 @@
 
         {% styles %}
     </head>
+
     <body>
 
-    <!-- Navigation -->
-      <a class="menu-toggle rounded" href="#">
-        <i class="fas fa-bars"></i>
-      </a>
-      <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-          <li class="sidebar-brand">
-            <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-          </li>
-          <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#page-top">Home</a>
-          </li>
-          <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#services">Services</a>
-          </li>
-          <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-
-      <!-- Header -->
-      <header class="masthead d-flex">
-        <div class="container text-center my-auto">
-          <h1 class="mb-1">Baltesco.com</h1>
-          <h3 class="mb-5">
-            <em>coopérative baltesco</em>
-          </h3>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
-        </div>
-        <div class="overlay"></div>
-      </header>
+      {% partial "header" %}
 
       <!-- About -->
       <section class="content-section bg-light" id="about">
@@ -476,34 +377,7 @@
         </small>
       </section>
 
-      <!-- Footer -->
-      <footer class="footer text-center">
-        <div class="container">
-          <ul class="list-inline mb-5">
-            <li class="list-inline-item">
-              <a class="social-link rounded-circle text-white mr-3" href="#">
-                <i class="icon-social-facebook"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="social-link rounded-circle text-white mr-3" href="#">
-                <i class="icon-social-twitter"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="social-link rounded-circle text-white" href="#">
-                <i class="icon-social-github"></i>
-              </a>
-            </li>
-          </ul>
-          <p class="text-muted small mb-0">Copyright &copy; baltesco 2020</p>
-        </div>
-      </footer>
-
-      <!-- Scroll to Top Button-->
-      <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-        <i class="fas fa-angle-up"></i>
-      </a>
+      {% partial "footer" %}
       
         
         

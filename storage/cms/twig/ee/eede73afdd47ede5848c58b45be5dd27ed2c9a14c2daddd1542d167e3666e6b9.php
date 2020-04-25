@@ -85,47 +85,16 @@ class __TwigTemplate_db464b11affffcd46dc6fb9559661b64d1dd74c1381f184fafe677260d8
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('styles');
         // line 26
         echo "    </head>
+
     <body>
 
-    <!-- Navigation -->
-      <a class=\"menu-toggle rounded\" href=\"#\">
-        <i class=\"fas fa-bars\"></i>
-      </a>
-      <nav id=\"sidebar-wrapper\">
-        <ul class=\"sidebar-nav\">
-          <li class=\"sidebar-brand\">
-            <a class=\"js-scroll-trigger\" href=\"#page-top\">Start Bootstrap</a>
-          </li>
-          <li class=\"sidebar-nav-item\">
-            <a class=\"js-scroll-trigger\" href=\"#page-top\">Home</a>
-          </li>
-          <li class=\"sidebar-nav-item\">
-            <a class=\"js-scroll-trigger\" href=\"#about\">About</a>
-          </li>
-          <li class=\"sidebar-nav-item\">
-            <a class=\"js-scroll-trigger\" href=\"#services\">Services</a>
-          </li>
-          <li class=\"sidebar-nav-item\">
-            <a class=\"js-scroll-trigger\" href=\"#portfolio\">Portfolio</a>
-          </li>
-          <li class=\"sidebar-nav-item\">
-            <a class=\"js-scroll-trigger\" href=\"#contact\">Contact</a>
-          </li>
-        </ul>
-      </nav>
-
-      <!-- Header -->
-      <header class=\"masthead d-flex\">
-        <div class=\"container text-center my-auto\">
-          <h1 class=\"mb-1\">Baltesco.com</h1>
-          <h3 class=\"mb-5\">
-            <em>coopérative baltesco</em>
-          </h3>
-          <a class=\"btn btn-primary btn-xl js-scroll-trigger\" href=\"#about\">Find Out More</a>
-        </div>
-        <div class=\"overlay\"></div>
-      </header>
-
+      ";
+        // line 30
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("header"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 31
+        echo "
       <!-- About -->
       <section class=\"content-section bg-light\" id=\"about\">
         <div class=\"container text-center\">
@@ -217,7 +186,7 @@ class __TwigTemplate_db464b11affffcd46dc6fb9559661b64d1dd74c1381f184fafe677260d8
                   </span>
                 </span>
                 <img class=\"img-fluid\" src=\"";
-        // line 158
+        // line 122
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio-1.jpg");
         echo "\" alt=\"\">
               </a>
@@ -231,7 +200,7 @@ class __TwigTemplate_db464b11affffcd46dc6fb9559661b64d1dd74c1381f184fafe677260d8
                   </span>
                 </span>
                 <img class=\"img-fluid\" src=\"";
-        // line 169
+        // line 133
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio-2.jpg");
         echo "\" alt=\"\">
               </a>
@@ -245,7 +214,7 @@ class __TwigTemplate_db464b11affffcd46dc6fb9559661b64d1dd74c1381f184fafe677260d8
                   </span>
                 </span>
                 <img class=\"img-fluid\" src=\"";
-        // line 180
+        // line 144
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio-3.jpg");
         echo "\" alt=\"\">
               </a>
@@ -259,7 +228,7 @@ class __TwigTemplate_db464b11affffcd46dc6fb9559661b64d1dd74c1381f184fafe677260d8
                   </span>
                 </span>
                 <img class=\"img-fluid\" src=\"";
-        // line 191
+        // line 155
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/portfolio-4.jpg");
         echo "\" alt=\"\">
               </a>
@@ -286,61 +255,39 @@ class __TwigTemplate_db464b11affffcd46dc6fb9559661b64d1dd74c1381f184fafe677260d8
         </small>
       </section>
 
-      <!-- Footer -->
-      <footer class=\"footer text-center\">
-        <div class=\"container\">
-          <ul class=\"list-inline mb-5\">
-            <li class=\"list-inline-item\">
-              <a class=\"social-link rounded-circle text-white mr-3\" href=\"#\">
-                <i class=\"icon-social-facebook\"></i>
-              </a>
-            </li>
-            <li class=\"list-inline-item\">
-              <a class=\"social-link rounded-circle text-white mr-3\" href=\"#\">
-                <i class=\"icon-social-twitter\"></i>
-              </a>
-            </li>
-            <li class=\"list-inline-item\">
-              <a class=\"social-link rounded-circle text-white\" href=\"#\">
-                <i class=\"icon-social-github\"></i>
-              </a>
-            </li>
-          </ul>
-          <p class=\"text-muted small mb-0\">Copyright &copy; baltesco 2020</p>
-        </div>
-      </footer>
-
-      <!-- Scroll to Top Button-->
-      <a class=\"scroll-to-top rounded js-scroll-trigger\" href=\"#page-top\">
-        <i class=\"fas fa-angle-up\"></i>
-      </a>
-      
+      ";
+        // line 180
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("footer"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 181
+        echo "      
         
         
 
         <!-- Scripts -->
         <script src=\"";
-        // line 249
+        // line 186
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/vendor/jquery/jquery.min.js");
         echo "\"></script>
         <script src=\"";
-        // line 250
+        // line 187
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/vendor/bootstrap/js/bootstrap.bundle.min.js");
         echo "\"></script>
 
         <!-- Plugin JavaScript -->
         <script src=\"";
-        // line 253
+        // line 190
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/vendor/jquery-easing/jquery.easing.min.js");
         echo "\"></script>
 
         <!-- Custom scripts for this template -->
         <script src=\"";
-        // line 256
+        // line 193
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/stylish-portfolio.min.js");
         echo "\"></script>
         ";
-        // line 257
+        // line 194
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         if ($_minify) {
             echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework.combined-min.js"></script>'.PHP_EOL;
@@ -351,11 +298,11 @@ class __TwigTemplate_db464b11affffcd46dc6fb9559661b64d1dd74c1381f184fafe677260d8
         }
         echo '<link rel="stylesheet" property="stylesheet" href="' . Request::getBasePath() .'/modules/system/assets/css/framework.extras'.($_minify ? '-min' : '').'.css">'.PHP_EOL;
         unset($_minify);
-        // line 258
+        // line 195
         echo "        ";
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
-        // line 259
+        // line 196
         echo "
     </body>
 </html>";
@@ -373,7 +320,7 @@ class __TwigTemplate_db464b11affffcd46dc6fb9559661b64d1dd74c1381f184fafe677260d8
 
     public function getDebugInfo()
     {
-        return array (  359 => 259,  355 => 258,  344 => 257,  340 => 256,  334 => 253,  328 => 250,  324 => 249,  263 => 191,  249 => 180,  235 => 169,  221 => 158,  87 => 26,  84 => 25,  79 => 23,  73 => 20,  68 => 18,  62 => 15,  51 => 7,  47 => 6,  43 => 5,  37 => 1,);
+        return array (  306 => 196,  302 => 195,  291 => 194,  287 => 193,  281 => 190,  275 => 187,  271 => 186,  264 => 181,  260 => 180,  232 => 155,  218 => 144,  204 => 133,  190 => 122,  97 => 31,  93 => 30,  87 => 26,  84 => 25,  79 => 23,  73 => 20,  68 => 18,  62 => 15,  51 => 7,  47 => 6,  43 => 5,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -404,46 +351,10 @@ class __TwigTemplate_db464b11affffcd46dc6fb9559661b64d1dd74c1381f184fafe677260d8
 
         {% styles %}
     </head>
+
     <body>
 
-    <!-- Navigation -->
-      <a class=\"menu-toggle rounded\" href=\"#\">
-        <i class=\"fas fa-bars\"></i>
-      </a>
-      <nav id=\"sidebar-wrapper\">
-        <ul class=\"sidebar-nav\">
-          <li class=\"sidebar-brand\">
-            <a class=\"js-scroll-trigger\" href=\"#page-top\">Start Bootstrap</a>
-          </li>
-          <li class=\"sidebar-nav-item\">
-            <a class=\"js-scroll-trigger\" href=\"#page-top\">Home</a>
-          </li>
-          <li class=\"sidebar-nav-item\">
-            <a class=\"js-scroll-trigger\" href=\"#about\">About</a>
-          </li>
-          <li class=\"sidebar-nav-item\">
-            <a class=\"js-scroll-trigger\" href=\"#services\">Services</a>
-          </li>
-          <li class=\"sidebar-nav-item\">
-            <a class=\"js-scroll-trigger\" href=\"#portfolio\">Portfolio</a>
-          </li>
-          <li class=\"sidebar-nav-item\">
-            <a class=\"js-scroll-trigger\" href=\"#contact\">Contact</a>
-          </li>
-        </ul>
-      </nav>
-
-      <!-- Header -->
-      <header class=\"masthead d-flex\">
-        <div class=\"container text-center my-auto\">
-          <h1 class=\"mb-1\">Baltesco.com</h1>
-          <h3 class=\"mb-5\">
-            <em>coopérative baltesco</em>
-          </h3>
-          <a class=\"btn btn-primary btn-xl js-scroll-trigger\" href=\"#about\">Find Out More</a>
-        </div>
-        <div class=\"overlay\"></div>
-      </header>
+      {% partial \"header\" %}
 
       <!-- About -->
       <section class=\"content-section bg-light\" id=\"about\">
@@ -593,34 +504,7 @@ class __TwigTemplate_db464b11affffcd46dc6fb9559661b64d1dd74c1381f184fafe677260d8
         </small>
       </section>
 
-      <!-- Footer -->
-      <footer class=\"footer text-center\">
-        <div class=\"container\">
-          <ul class=\"list-inline mb-5\">
-            <li class=\"list-inline-item\">
-              <a class=\"social-link rounded-circle text-white mr-3\" href=\"#\">
-                <i class=\"icon-social-facebook\"></i>
-              </a>
-            </li>
-            <li class=\"list-inline-item\">
-              <a class=\"social-link rounded-circle text-white mr-3\" href=\"#\">
-                <i class=\"icon-social-twitter\"></i>
-              </a>
-            </li>
-            <li class=\"list-inline-item\">
-              <a class=\"social-link rounded-circle text-white\" href=\"#\">
-                <i class=\"icon-social-github\"></i>
-              </a>
-            </li>
-          </ul>
-          <p class=\"text-muted small mb-0\">Copyright &copy; baltesco 2020</p>
-        </div>
-      </footer>
-
-      <!-- Scroll to Top Button-->
-      <a class=\"scroll-to-top rounded js-scroll-trigger\" href=\"#page-top\">
-        <i class=\"fas fa-angle-up\"></i>
-      </a>
+      {% partial \"footer\" %}
       
         
         

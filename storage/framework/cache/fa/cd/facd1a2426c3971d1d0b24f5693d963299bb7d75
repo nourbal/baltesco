@@ -1,0 +1,58 @@
+1587786772a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:909:"description = "footer of the page"
+==
+
+<!-- Footer -->
+<footer class="footer text-center">
+<div class="container">
+  <ul class="list-inline mb-5">
+    <li class="list-inline-item">
+      <a class="social-link rounded-circle text-white mr-3" href="#">
+        <i class="icon-social-facebook"></i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="social-link rounded-circle text-white mr-3" href="#">
+        <i class="icon-social-twitter"></i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="social-link rounded-circle text-white" href="#">
+        <i class="icon-social-github"></i>
+      </a>
+    </li>
+  </ul>
+  <p class="text-muted small mb-0">Copyright &copy; baltesco 2020</p>
+</div>
+</footer>
+
+<!-- Scroll to Top Button-->
+<a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+<i class="fas fa-angle-up"></i>
+</a>";s:5:"mtime";i:1587786127;s:6:"markup";s:867:"<!-- Footer -->
+<footer class="footer text-center">
+<div class="container">
+  <ul class="list-inline mb-5">
+    <li class="list-inline-item">
+      <a class="social-link rounded-circle text-white mr-3" href="#">
+        <i class="icon-social-facebook"></i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="social-link rounded-circle text-white mr-3" href="#">
+        <i class="icon-social-twitter"></i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a class="social-link rounded-circle text-white" href="#">
+        <i class="icon-social-github"></i>
+      </a>
+    </li>
+  </ul>
+  <p class="text-muted small mb-0">Copyright &copy; baltesco 2020</p>
+</div>
+</footer>
+
+<!-- Scroll to Top Button-->
+<a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+<i class="fas fa-angle-up"></i>
+</a>";s:4:"code";N;s:11:"description";s:18:"footer of the page";}}
