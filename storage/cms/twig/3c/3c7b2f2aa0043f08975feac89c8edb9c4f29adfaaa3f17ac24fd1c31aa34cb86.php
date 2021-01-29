@@ -69,7 +69,7 @@ class __TwigTemplate_b2e0751b8c686a0648e8290077983dda80dd5b40b5225cee6550b0c73b3
       <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
       <meta name=\"viewport\" content=\"initial-scale=1, maximum-scale=1\">
       <!-- site metas -->
-      <title>lighten</title>
+      <title>baltesco</title>
       <meta name=\"keywords\" content=\"\">
       <meta name=\"description\" content=\"\">
       <meta name=\"author\" content=\"\">
@@ -739,7 +739,7 @@ class __TwigTemplate_b2e0751b8c686a0648e8290077983dda80dd5b40b5225cee6550b0c73b3
       <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
       <meta name=\"viewport\" content=\"initial-scale=1, maximum-scale=1\">
       <!-- site metas -->
-      <title>lighten</title>
+      <title>baltesco</title>
       <meta name=\"keywords\" content=\"\">
       <meta name=\"description\" content=\"\">
       <meta name=\"author\" content=\"\">

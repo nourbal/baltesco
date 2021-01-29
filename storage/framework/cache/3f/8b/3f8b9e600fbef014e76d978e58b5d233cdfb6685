@@ -1,4 +1,4 @@
-1611884025a:1:{s:17:"page-daccueil.htm";a:9:{s:8:"fileName";s:17:"page-daccueil.htm";s:7:"content";s:24110:"title = "page d'accueil"
+1611885832a:1:{s:17:"page-daccueil.htm";a:9:{s:8:"fileName";s:17:"page-daccueil.htm";s:7:"content";s:24111:"title = "page d'accueil"
 url = "/"
 description = "page d'accueil de baltesco"
 is_hidden = 0
@@ -13,7 +13,7 @@ is_hidden = 0
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>lighten</title>
+      <title>baltesco</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -533,7 +533,7 @@ is_hidden = 0
          
       </script> 
    </body>
-</html>";s:5:"mtime";i:1611881528;s:6:"markup";s:24010:"<!DOCTYPE html>
+</html>";s:5:"mtime";i:1611884602;s:6:"markup";s:24011:"<!DOCTYPE html>
 <html lang="en">
    <head>
       <!-- basic -->
@@ -543,7 +543,7 @@ is_hidden = 0
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>lighten</title>
+      <title>baltesco</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
