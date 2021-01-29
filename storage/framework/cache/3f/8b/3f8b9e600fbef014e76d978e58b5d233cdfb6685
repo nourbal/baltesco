@@ -1,4 +1,4 @@
-1611879338a:1:{s:17:"page-daccueil.htm";a:9:{s:8:"fileName";s:17:"page-daccueil.htm";s:7:"content";s:24110:"title = "page d'accueil"
+1611884025a:1:{s:17:"page-daccueil.htm";a:9:{s:8:"fileName";s:17:"page-daccueil.htm";s:7:"content";s:24110:"title = "page d'accueil"
 url = "/"
 description = "page d'accueil de baltesco"
 is_hidden = 0
@@ -533,7 +533,7 @@ is_hidden = 0
          
       </script> 
    </body>
-</html>";s:5:"mtime";i:1611878736;s:6:"markup";s:24010:"<!DOCTYPE html>
+</html>";s:5:"mtime";i:1611881528;s:6:"markup";s:24010:"<!DOCTYPE html>
 <html lang="en">
    <head>
       <!-- basic -->
