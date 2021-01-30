@@ -1,0 +1,110 @@
+1611965960a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:2576:"==
+<footer>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <ul class="sociel">
+                        <li> <a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                        <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="contact">
+                        <h3>nous contacter</h3>
+                        <span>123 Second Street Fifth Avenue,<br>
+                            Manhattan, New York<br>
+                            +987 654 3210</span>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="contact">
+                        <h3>Liens</h3>
+                        <ul class="lik">
+                            <li> <a href="#">A propos de nous</a></li>
+                            <li> <a href="#">nous contacter</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="contact">
+                        <h3>service</h3>
+                        <ul class="lik">
+                            <li> <a href="#"> Data recovery</a></li>
+                            <li> <a href="#">Computer repair</a></li>
+                            <li> <a href="#">Mobile service</a></li>
+                            <li> <a href="#">Network solutions</a></li>
+                            <li> <a href="#">Technical support</a></li>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="contact">
+                        <h3>Coopérative Baltesco</h3>
+                        <span>Tincidunt elit magnis nulla facilisis. Dolor Sapien nunc amet ultrices, </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright {{ 'now' | date('Y') }} Tous droits réservés par <a href="#">baltesco</a></p>
+        </div>
+    </div>
+</footer>";s:5:"mtime";i:1611965357;s:6:"markup";s:2572:"<footer>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <ul class="sociel">
+                        <li> <a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                        <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="contact">
+                        <h3>nous contacter</h3>
+                        <span>123 Second Street Fifth Avenue,<br>
+                            Manhattan, New York<br>
+                            +987 654 3210</span>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="contact">
+                        <h3>Liens</h3>
+                        <ul class="lik">
+                            <li> <a href="#">A propos de nous</a></li>
+                            <li> <a href="#">nous contacter</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="contact">
+                        <h3>service</h3>
+                        <ul class="lik">
+                            <li> <a href="#"> Data recovery</a></li>
+                            <li> <a href="#">Computer repair</a></li>
+                            <li> <a href="#">Mobile service</a></li>
+                            <li> <a href="#">Network solutions</a></li>
+                            <li> <a href="#">Technical support</a></li>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="contact">
+                        <h3>Coopérative Baltesco</h3>
+                        <span>Tincidunt elit magnis nulla facilisis. Dolor Sapien nunc amet ultrices, </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright {{ 'now' | date('Y') }} Tous droits réservés par <a href="#">baltesco</a></p>
+        </div>
+    </div>
+</footer>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}
