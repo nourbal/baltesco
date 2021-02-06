@@ -88,9 +88,9 @@ class __TwigTemplate_c5e01766b6e0db475c9a527561f06a564ac780f49336bd110f6c1de6b89
                 <div class=\"col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section\">
                     <div class=\"full\">
                         <div class=\"center-desk\">
-                            <div class=\"logo\"> <a href=\"index.html\"><img src=\"";
+                            <div class=\"logo\"> <a href=\"/\"><img src=\"";
         // line 30
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/logo.jpg");
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/logo.png");
         echo "\" alt=\"logo\" /></a> </div>
                         </div>
                     </div>
@@ -161,7 +161,7 @@ class __TwigTemplate_c5e01766b6e0db475c9a527561f06a564ac780f49336bd110f6c1de6b89
                 <div class=\"col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section\">
                     <div class=\"full\">
                         <div class=\"center-desk\">
-                            <div class=\"logo\"> <a href=\"index.html\"><img src=\"{{ 'assets/images/logo.jpg'|theme }}\" alt=\"logo\" /></a> </div>
+                            <div class=\"logo\"> <a href=\"/\"><img src=\"{{ 'assets/images/logo.png'|theme }}\" alt=\"logo\" /></a> </div>
                         </div>
                     </div>
                 </div>
