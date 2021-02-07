@@ -1,0 +1,20 @@
+columns:
+    type:
+        label: Type
+        type: text
+    title:
+        label: Title
+        type: text
+    created_at:
+        label: created_at
+        type: datetime
+        searchable: true
+        sortable: true
+    updated_at:
+        label: updated_at
+        type: datetime
+        searchable: true
+        sortable: true
+    deleted_at:
+        label: deleted_at
+        type: datetime
