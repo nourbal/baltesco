@@ -1,4 +1,9 @@
-1612656457a:1:{s:10:"header.htm";a:6:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:2344:"==
+1612742078a:1:{s:10:"header.htm";a:7:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:2177:"[link]
+filter_type = "social_network"
+
+[link link2]
+filter_type = "quotes"
+==
 <header>
     <!-- header inner -->
     <div class="header">
@@ -8,15 +13,13 @@
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                         <div class="top-box">
                             <ul class="sociel_link">
-                                <li> <a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li> <a href="#"><i class="fa fa-youtube"></i></a></li>
+                                {% component 'link' %}
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                         <div class="top-box">
-                            <p>Le succès est toujours un enfant de l’audace. </p>
+                            {% component 'link2' %}
                         </div>
                     </div>
                 </div>
@@ -48,7 +51,7 @@
             </div>
         </div>
         <!-- end header inner -->
-</header>";s:5:"mtime";i:1612655855;s:6:"markup";s:2340:"<header>
+</header>";s:5:"mtime";i:1612715651;s:6:"markup";s:2093:"<header>
     <!-- header inner -->
     <div class="header">
         <div class="head_top">
@@ -57,15 +60,13 @@
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                         <div class="top-box">
                             <ul class="sociel_link">
-                                <li> <a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li> <a href="#"><i class="fa fa-youtube"></i></a></li>
+                                {% component 'link' %}
                             </ul>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                         <div class="top-box">
-                            <p>Le succès est toujours un enfant de l’audace. </p>
+                            {% component 'link2' %}
                         </div>
                     </div>
                 </div>
@@ -97,4 +98,4 @@
             </div>
         </div>
         <!-- end header inner -->
-</header>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}
+</header>";s:4:"code";N;s:4:"link";a:1:{s:11:"filter_type";s:14:"social_network";}s:10:"link link2";a:1:{s:11:"filter_type";s:6:"quotes";}}}

@@ -1,0 +1,5 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Updated table nourbal_baltesco_links'
+    - builder_table_update_nourbal_baltesco_links.php

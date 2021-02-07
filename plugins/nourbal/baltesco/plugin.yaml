@@ -1,0 +1,16 @@
+plugin:
+    name: 'nourbal.baltesco::lang.plugin.name'
+    description: 'nourbal.baltesco::lang.plugin.description'
+    author: nourbal
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'nourbal.baltesco::lang.plugin.name'
+        url: nourbal/baltesco/link
+        icon: icon-car
+        sideMenu:
+            side-menu-item:
+                label: 'website information'
+                url: nourbal/baltesco/link
+                icon: icon-info

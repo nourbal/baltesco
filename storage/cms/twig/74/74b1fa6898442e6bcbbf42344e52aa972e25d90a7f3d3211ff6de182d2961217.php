@@ -29,13 +29,13 @@ class __TwigTemplate_c5e01766b6e0db475c9a527561f06a564ac780f49336bd110f6c1de6b89
         $this->blocks = [
         ];
         $this->sandbox = $this->env->getExtension('\Twig\Extension\SandboxExtension');
-        $tags = array();
-        $filters = array("theme" => 29);
+        $tags = array("component" => 10);
+        $filters = array("theme" => 27);
         $functions = array();
 
         try {
             $this->sandbox->checkSecurity(
-                [],
+                ['component'],
                 ['theme'],
                 []
             );
@@ -68,16 +68,24 @@ class __TwigTemplate_c5e01766b6e0db475c9a527561f06a564ac780f49336bd110f6c1de6b89
                     <div class=\"col-xl-6 col-lg-6 col-md-6 col-sm-12\">
                         <div class=\"top-box\">
                             <ul class=\"sociel_link\">
-                                <li> <a href=\"#\"><i class=\"fa fa-facebook\"></i></a></li>
-                                <li> <a href=\"#\"><i class=\"fa fa-instagram\"></i></a></li>
-                                <li> <a href=\"#\"><i class=\"fa fa-youtube\"></i></a></li>
-                            </ul>
+                                ";
+        // line 10
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("link"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        // line 11
+        echo "                            </ul>
                         </div>
                     </div>
                     <div class=\"col-xl-6 col-lg-6 col-md-6 col-sm-12\">
                         <div class=\"top-box\">
-                            <p>Le succès est toujours un enfant de l’audace. </p>
-                        </div>
+                            ";
+        // line 16
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("link2"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
+        // line 17
+        echo "                        </div>
                     </div>
                 </div>
             </div>
@@ -88,7 +96,7 @@ class __TwigTemplate_c5e01766b6e0db475c9a527561f06a564ac780f49336bd110f6c1de6b89
                     <div class=\"full\">
                         <div class=\"center-desk\">
                             <div class=\"logo\"> <a href=\"/\"><img src=\"";
-        // line 29
+        // line 27
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/logo.png");
         echo "\" alt=\"logo\" /></a> </div>
                         </div>
@@ -126,7 +134,7 @@ class __TwigTemplate_c5e01766b6e0db475c9a527561f06a564ac780f49336bd110f6c1de6b89
 
     public function getDebugInfo()
     {
-        return array (  92 => 29,  62 => 1,);
+        return array (  100 => 27,  88 => 17,  84 => 16,  77 => 11,  73 => 10,  62 => 1,);
     }
 
     public function getSourceContext()
@@ -140,15 +148,13 @@ class __TwigTemplate_c5e01766b6e0db475c9a527561f06a564ac780f49336bd110f6c1de6b89
                     <div class=\"col-xl-6 col-lg-6 col-md-6 col-sm-12\">
                         <div class=\"top-box\">
                             <ul class=\"sociel_link\">
-                                <li> <a href=\"#\"><i class=\"fa fa-facebook\"></i></a></li>
-                                <li> <a href=\"#\"><i class=\"fa fa-instagram\"></i></a></li>
-                                <li> <a href=\"#\"><i class=\"fa fa-youtube\"></i></a></li>
+                                {% component 'link' %}
                             </ul>
                         </div>
                     </div>
                     <div class=\"col-xl-6 col-lg-6 col-md-6 col-sm-12\">
                         <div class=\"top-box\">
-                            <p>Le succès est toujours un enfant de l’audace. </p>
+                            {% component 'link2' %}
                         </div>
                     </div>
                 </div>
