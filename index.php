@@ -1,6 +1,5 @@
 <?php
 /**
- * nourbal
  * October - The PHP platform that gets back to basics.
  *
  * @package  October
