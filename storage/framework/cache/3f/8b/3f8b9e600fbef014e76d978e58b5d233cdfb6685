@@ -1,4 +1,4 @@
-1611965793a:1:{s:17:"page-daccueil.htm";a:9:{s:8:"fileName";s:17:"page-daccueil.htm";s:7:"content";s:16186:"title = "page d'accueil"
+1612656331a:1:{s:17:"page-daccueil.htm";a:9:{s:8:"fileName";s:17:"page-daccueil.htm";s:7:"content";s:15225:"title = "page d'accueil"
 url = "/"
 description = "page d'accueil de baltesco"
 is_hidden = 0
@@ -44,7 +44,7 @@ is_hidden = 0
     </div>
     <!-- end loader -->
     <!-- header -->
-     {% partial "header" %}
+    {% partial "header" %}
     <!-- end header -->
     <section class="slider_section">
         <div id="main_slider" class="carousel slide banner-main" data-ride="carousel">
@@ -281,32 +281,11 @@ is_hidden = 0
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="yellow_bg">
-                <div class="row">
-                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
-                        <div class="yellow-box">
-                            <h3>DEMANDEZ UN DEVIS GRATUIT<i><img src="{{ 'assets/icon/calll.png'|theme }}" /></i></h3>
-                            <p>Obtenez des réponses et des conseils de la part des personnes de votre choix.</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-                        <div class="yellow-box">
-                            <a href="#">obtenir un devis</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
     <!-- end our product -->
-    <!-- map -->
-    <div class="container-fluid padi">
-        <div class="map">
-            <img src="{{ 'assets/images/mapimg.jpg'|theme }}" alt="img" />
-        </div>
-    </div>
-    <!-- end map -->
+    <!-- contact -->
+    {% partial "contact" %}
+    <!-- end contact -->
     <!--  footer -->
     {% partial "footer" %}
     <!-- end footer -->
@@ -338,7 +317,7 @@ is_hidden = 0
     </script>
 </body>
 
-</html>";s:5:"mtime";i:1611965058;s:6:"markup";s:16086:"<!DOCTYPE html>
+</html>";s:5:"mtime";i:1612655065;s:6:"markup";s:15125:"<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -379,7 +358,7 @@ is_hidden = 0
     </div>
     <!-- end loader -->
     <!-- header -->
-     {% partial "header" %}
+    {% partial "header" %}
     <!-- end header -->
     <section class="slider_section">
         <div id="main_slider" class="carousel slide banner-main" data-ride="carousel">
@@ -616,32 +595,11 @@ is_hidden = 0
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="yellow_bg">
-                <div class="row">
-                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
-                        <div class="yellow-box">
-                            <h3>DEMANDEZ UN DEVIS GRATUIT<i><img src="{{ 'assets/icon/calll.png'|theme }}" /></i></h3>
-                            <p>Obtenez des réponses et des conseils de la part des personnes de votre choix.</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
-                        <div class="yellow-box">
-                            <a href="#">obtenir un devis</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
     <!-- end our product -->
-    <!-- map -->
-    <div class="container-fluid padi">
-        <div class="map">
-            <img src="{{ 'assets/images/mapimg.jpg'|theme }}" alt="img" />
-        </div>
-    </div>
-    <!-- end map -->
+    <!-- contact -->
+    {% partial "contact" %}
+    <!-- end contact -->
     <!--  footer -->
     {% partial "footer" %}
     <!-- end footer -->

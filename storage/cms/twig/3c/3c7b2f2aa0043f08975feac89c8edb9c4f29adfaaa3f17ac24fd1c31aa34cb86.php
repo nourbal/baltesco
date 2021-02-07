@@ -118,7 +118,7 @@ class __TwigTemplate_b2e0751b8c686a0648e8290077983dda80dd5b40b5225cee6550b0c73b3
     </div>
     <!-- end loader -->
     <!-- header -->
-     ";
+    ";
         // line 42
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("header"        , $context['__cms_partial_params']        , true        );
@@ -423,74 +423,52 @@ class __TwigTemplate_b2e0751b8c686a0648e8290077983dda80dd5b40b5225cee6550b0c73b3
                 </div>
             </div>
         </div>
-        <div class=\"container\">
-            <div class=\"yellow_bg\">
-                <div class=\"row\">
-                    <div class=\"col-xl-7 col-lg-7 col-md-7 col-sm-12\">
-                        <div class=\"yellow-box\">
-                            <h3>DEMANDEZ UN DEVIS GRATUIT<i><img src=\"";
-        // line 284
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/icon/calll.png");
-        echo "\" /></i></h3>
-                            <p>Obtenez des réponses et des conseils de la part des personnes de votre choix.</p>
-                        </div>
-                    </div>
-                    <div class=\"col-xl-5 col-lg-5 col-md-5 col-sm-12\">
-                        <div class=\"yellow-box\">
-                            <a href=\"#\">obtenir un devis</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
     <!-- end our product -->
-    <!-- map -->
-    <div class=\"container-fluid padi\">
-        <div class=\"map\">
-            <img src=\"";
-        // line 301
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/mapimg.jpg");
-        echo "\" alt=\"img\" />
-        </div>
-    </div>
-    <!-- end map -->
+    <!-- contact -->
+    ";
+        // line 282
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("contact"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 283
+        echo "    <!-- end contact -->
     <!--  footer -->
     ";
-        // line 306
+        // line 285
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("footer"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 307
+        // line 286
         echo "    <!-- end footer -->
     <!-- Javascript files-->
     <script src=\"";
-        // line 309
+        // line 288
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/jquery.min.js");
         echo "\"></script>
     <script src=\"";
-        // line 310
+        // line 289
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/popper.min.js");
         echo "\"></script>
     <script src=\"";
-        // line 311
+        // line 290
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/bootstrap.bundle.min.js");
         echo "\"></script>
     <script src=\"";
-        // line 312
+        // line 291
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/jquery-3.0.0.min.js");
         echo "\"></script>
     <script src=\"";
-        // line 313
+        // line 292
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/plugin.js");
         echo "\"></script>
     <!-- sidebar -->
     <script src=\"";
-        // line 315
+        // line 294
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/jquery.mCustomScrollbar.concat.min.js");
         echo "\"></script>
     <script src=\"";
-        // line 316
+        // line 295
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/custom.js");
         echo "\"></script>
     <script src=\"https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js\"></script>
@@ -527,7 +505,7 @@ class __TwigTemplate_b2e0751b8c686a0648e8290077983dda80dd5b40b5225cee6550b0c73b3
 
     public function getDebugInfo()
     {
-        return array (  494 => 316,  490 => 315,  485 => 313,  481 => 312,  477 => 311,  473 => 310,  469 => 309,  465 => 307,  461 => 306,  453 => 301,  433 => 284,  417 => 271,  407 => 264,  397 => 257,  387 => 250,  377 => 243,  367 => 236,  357 => 229,  347 => 222,  316 => 194,  306 => 187,  296 => 180,  286 => 173,  276 => 166,  266 => 159,  236 => 132,  226 => 125,  216 => 118,  206 => 111,  164 => 72,  149 => 60,  134 => 48,  127 => 43,  123 => 42,  116 => 38,  100 => 25,  95 => 23,  90 => 21,  85 => 19,  80 => 17,  62 => 1,);
+        return array (  472 => 295,  468 => 294,  463 => 292,  459 => 291,  455 => 290,  451 => 289,  447 => 288,  443 => 286,  439 => 285,  435 => 283,  431 => 282,  417 => 271,  407 => 264,  397 => 257,  387 => 250,  377 => 243,  367 => 236,  357 => 229,  347 => 222,  316 => 194,  306 => 187,  296 => 180,  286 => 173,  276 => 166,  266 => 159,  236 => 132,  226 => 125,  216 => 118,  206 => 111,  164 => 72,  149 => 60,  134 => 48,  127 => 43,  123 => 42,  116 => 38,  100 => 25,  95 => 23,  90 => 21,  85 => 19,  80 => 17,  62 => 1,);
     }
 
     public function getSourceContext()
@@ -573,7 +551,7 @@ class __TwigTemplate_b2e0751b8c686a0648e8290077983dda80dd5b40b5225cee6550b0c73b3
     </div>
     <!-- end loader -->
     <!-- header -->
-     {% partial \"header\" %}
+    {% partial \"header\" %}
     <!-- end header -->
     <section class=\"slider_section\">
         <div id=\"main_slider\" class=\"carousel slide banner-main\" data-ride=\"carousel\">
@@ -810,32 +788,11 @@ class __TwigTemplate_b2e0751b8c686a0648e8290077983dda80dd5b40b5225cee6550b0c73b3
                 </div>
             </div>
         </div>
-        <div class=\"container\">
-            <div class=\"yellow_bg\">
-                <div class=\"row\">
-                    <div class=\"col-xl-7 col-lg-7 col-md-7 col-sm-12\">
-                        <div class=\"yellow-box\">
-                            <h3>DEMANDEZ UN DEVIS GRATUIT<i><img src=\"{{ 'assets/icon/calll.png'|theme }}\" /></i></h3>
-                            <p>Obtenez des réponses et des conseils de la part des personnes de votre choix.</p>
-                        </div>
-                    </div>
-                    <div class=\"col-xl-5 col-lg-5 col-md-5 col-sm-12\">
-                        <div class=\"yellow-box\">
-                            <a href=\"#\">obtenir un devis</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
     <!-- end our product -->
-    <!-- map -->
-    <div class=\"container-fluid padi\">
-        <div class=\"map\">
-            <img src=\"{{ 'assets/images/mapimg.jpg'|theme }}\" alt=\"img\" />
-        </div>
-    </div>
-    <!-- end map -->
+    <!-- contact -->
+    {% partial \"contact\" %}
+    <!-- end contact -->
     <!--  footer -->
     {% partial \"footer\" %}
     <!-- end footer -->

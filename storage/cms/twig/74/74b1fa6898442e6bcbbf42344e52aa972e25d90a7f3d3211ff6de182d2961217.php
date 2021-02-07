@@ -30,7 +30,7 @@ class __TwigTemplate_c5e01766b6e0db475c9a527561f06a564ac780f49336bd110f6c1de6b89
         ];
         $this->sandbox = $this->env->getExtension('\Twig\Extension\SandboxExtension');
         $tags = array();
-        $filters = array("theme" => 30);
+        $filters = array("theme" => 29);
         $functions = array();
 
         try {
@@ -68,10 +68,9 @@ class __TwigTemplate_c5e01766b6e0db475c9a527561f06a564ac780f49336bd110f6c1de6b89
                     <div class=\"col-xl-6 col-lg-6 col-md-6 col-sm-12\">
                         <div class=\"top-box\">
                             <ul class=\"sociel_link\">
-                                <li> <a href=\"#\"><i class=\"fa fa-facebook-f\"></i></a></li>
-                                <li> <a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li>
+                                <li> <a href=\"#\"><i class=\"fa fa-facebook\"></i></a></li>
                                 <li> <a href=\"#\"><i class=\"fa fa-instagram\"></i></a></li>
-                                <li> <a href=\"#\"><i class=\"fa fa-linkedin\"></i></a></li>
+                                <li> <a href=\"#\"><i class=\"fa fa-youtube\"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -88,9 +87,9 @@ class __TwigTemplate_c5e01766b6e0db475c9a527561f06a564ac780f49336bd110f6c1de6b89
                 <div class=\"col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section\">
                     <div class=\"full\">
                         <div class=\"center-desk\">
-                            <div class=\"logo\"> <a href=\"index.html\"><img src=\"";
-        // line 30
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/logo.jpg");
+                            <div class=\"logo\"> <a href=\"/\"><img src=\"";
+        // line 29
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/logo.png");
         echo "\" alt=\"logo\" /></a> </div>
                         </div>
                     </div>
@@ -127,7 +126,7 @@ class __TwigTemplate_c5e01766b6e0db475c9a527561f06a564ac780f49336bd110f6c1de6b89
 
     public function getDebugInfo()
     {
-        return array (  93 => 30,  62 => 1,);
+        return array (  92 => 29,  62 => 1,);
     }
 
     public function getSourceContext()
@@ -141,10 +140,9 @@ class __TwigTemplate_c5e01766b6e0db475c9a527561f06a564ac780f49336bd110f6c1de6b89
                     <div class=\"col-xl-6 col-lg-6 col-md-6 col-sm-12\">
                         <div class=\"top-box\">
                             <ul class=\"sociel_link\">
-                                <li> <a href=\"#\"><i class=\"fa fa-facebook-f\"></i></a></li>
-                                <li> <a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li>
+                                <li> <a href=\"#\"><i class=\"fa fa-facebook\"></i></a></li>
                                 <li> <a href=\"#\"><i class=\"fa fa-instagram\"></i></a></li>
-                                <li> <a href=\"#\"><i class=\"fa fa-linkedin\"></i></a></li>
+                                <li> <a href=\"#\"><i class=\"fa fa-youtube\"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -161,7 +159,7 @@ class __TwigTemplate_c5e01766b6e0db475c9a527561f06a564ac780f49336bd110f6c1de6b89
                 <div class=\"col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section\">
                     <div class=\"full\">
                         <div class=\"center-desk\">
-                            <div class=\"logo\"> <a href=\"index.html\"><img src=\"{{ 'assets/images/logo.jpg'|theme }}\" alt=\"logo\" /></a> </div>
+                            <div class=\"logo\"> <a href=\"/\"><img src=\"{{ 'assets/images/logo.png'|theme }}\" alt=\"logo\" /></a> </div>
                         </div>
                     </div>
                 </div>

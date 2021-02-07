@@ -30,7 +30,7 @@ class __TwigTemplate_082506dae6645ce69f23d3bca43563a600c15e44b8ca90f5c9299cc8c6b
         ];
         $this->sandbox = $this->env->getExtension('\Twig\Extension\SandboxExtension');
         $tags = array();
-        $filters = array("escape" => 52, "date" => 52);
+        $filters = array("escape" => 56, "date" => 56);
         $functions = array();
 
         try {
@@ -65,10 +65,9 @@ class __TwigTemplate_082506dae6645ce69f23d3bca43563a600c15e44b8ca90f5c9299cc8c6b
             <div class=\"row\">
                 <div class=\"col-md-6 offset-md-3\">
                     <ul class=\"sociel\">
-                        <li> <a href=\"#\"><i class=\"fa fa-facebook-f\"></i></a></li>
-                        <li> <a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li>
+                        <li> <a href=\"https://web.facebook.com/C.Baltesco\"><i class=\"fa fa-facebook\"></i></a></li>
                         <li> <a href=\"#\"><i class=\"fa fa-instagram\"></i></a></li>
-                        <li> <a href=\"#\"><i class=\"fa fa-instagram\"></i></a></li>
+                        <li> <a href=\"#\"><i class=\"fa fa-youtube\"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -76,42 +75,47 @@ class __TwigTemplate_082506dae6645ce69f23d3bca43563a600c15e44b8ca90f5c9299cc8c6b
                 <div class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
                     <div class=\"contact\">
                         <h3>nous contacter</h3>
-                        <span>123 Second Street Fifth Avenue,<br>
-                            Manhattan, New York<br>
-                            +987 654 3210</span>
+                        <ul class=\"lik\">
+                            <li><i class=\"fa fa-envelope-o\" aria-hidden=\"true\"></i> baltescoop@gmail.com</li>
+                            <li><i class=\"fa fa-phone\"></i> (+212)670028569</li>
+                            <li><i class=\"fa fa-map-marker\" aria-hidden=\"true\"></i> Maroc, ouarzazate</li>
+                        </ul>
                     </div>
                 </div>
                 <div class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
                     <div class=\"contact\">
                         <h3>Liens</h3>
                         <ul class=\"lik\">
-                            <li> <a href=\"#\">A propos de nous</a></li>
-                            <li> <a href=\"#\">nous contacter</a></li>
+                            <li> <a href=\"#\">Accueil</a></li>
+                            <li> <a href=\"#\">Qui somme-nous?</a></li>
+                            <li> <a href=\"#\">Produits</a></li>
+                            <li> <a href=\"#\">Blog</a></li>
+                            <li> <a href=\"#\">Nous contacter</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
                     <div class=\"contact\">
-                        <h3>service</h3>
+                        <h3>Nos services</h3>
                         <ul class=\"lik\">
-                            <li> <a href=\"#\"> Data recovery</a></li>
-                            <li> <a href=\"#\">Computer repair</a></li>
-                            <li> <a href=\"#\">Mobile service</a></li>
-                            <li> <a href=\"#\">Network solutions</a></li>
-                            <li> <a href=\"#\">Technical support</a></li>
+                            <li> <a href=\"#\">Mécatronique automobile</a></li>
+                            <li> <a href=\"#\">Formations</a></li>
+                            <li> <a href=\"#\">Installation GPS, Radars et caméra ...</a></li>
                     </div>
                 </div>
                 <div class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
                     <div class=\"contact\">
-                        <h3>Coopérative Baltesco</h3>
-                        <span>Tincidunt elit magnis nulla facilisis. Dolor Sapien nunc amet ultrices, </span>
+                        <h3>Baltesco</h3>
+                        <span>
+                            La coopérative BALTESCO a pour objectif de satisfaire vos besoins de Mécatronique automobile; Formations de qualités;Installation des composantes technologiques des véhicules\" GPS,Radars et Camera de recule,...\" . Autres services.
+                        </span>
                     </div>
                 </div>
             </div>
         </div>
         <div class=\"copyright\">
             <p>Copyright ";
-        // line 52
+        // line 56
         echo twig_escape_filter($this->env, twig_date_format_filter($this->env, "now", "Y"), "html", null, true);
         echo " Tous droits réservés par <a href=\"#\">baltesco</a></p>
         </div>
@@ -131,7 +135,7 @@ class __TwigTemplate_082506dae6645ce69f23d3bca43563a600c15e44b8ca90f5c9299cc8c6b
 
     public function getDebugInfo()
     {
-        return array (  115 => 52,  62 => 1,);
+        return array (  119 => 56,  62 => 1,);
     }
 
     public function getSourceContext()
@@ -142,10 +146,9 @@ class __TwigTemplate_082506dae6645ce69f23d3bca43563a600c15e44b8ca90f5c9299cc8c6b
             <div class=\"row\">
                 <div class=\"col-md-6 offset-md-3\">
                     <ul class=\"sociel\">
-                        <li> <a href=\"#\"><i class=\"fa fa-facebook-f\"></i></a></li>
-                        <li> <a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li>
+                        <li> <a href=\"https://web.facebook.com/C.Baltesco\"><i class=\"fa fa-facebook\"></i></a></li>
                         <li> <a href=\"#\"><i class=\"fa fa-instagram\"></i></a></li>
-                        <li> <a href=\"#\"><i class=\"fa fa-instagram\"></i></a></li>
+                        <li> <a href=\"#\"><i class=\"fa fa-youtube\"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -153,35 +156,40 @@ class __TwigTemplate_082506dae6645ce69f23d3bca43563a600c15e44b8ca90f5c9299cc8c6b
                 <div class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
                     <div class=\"contact\">
                         <h3>nous contacter</h3>
-                        <span>123 Second Street Fifth Avenue,<br>
-                            Manhattan, New York<br>
-                            +987 654 3210</span>
+                        <ul class=\"lik\">
+                            <li><i class=\"fa fa-envelope-o\" aria-hidden=\"true\"></i> baltescoop@gmail.com</li>
+                            <li><i class=\"fa fa-phone\"></i> (+212)670028569</li>
+                            <li><i class=\"fa fa-map-marker\" aria-hidden=\"true\"></i> Maroc, ouarzazate</li>
+                        </ul>
                     </div>
                 </div>
                 <div class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
                     <div class=\"contact\">
                         <h3>Liens</h3>
                         <ul class=\"lik\">
-                            <li> <a href=\"#\">A propos de nous</a></li>
-                            <li> <a href=\"#\">nous contacter</a></li>
+                            <li> <a href=\"#\">Accueil</a></li>
+                            <li> <a href=\"#\">Qui somme-nous?</a></li>
+                            <li> <a href=\"#\">Produits</a></li>
+                            <li> <a href=\"#\">Blog</a></li>
+                            <li> <a href=\"#\">Nous contacter</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
                     <div class=\"contact\">
-                        <h3>service</h3>
+                        <h3>Nos services</h3>
                         <ul class=\"lik\">
-                            <li> <a href=\"#\"> Data recovery</a></li>
-                            <li> <a href=\"#\">Computer repair</a></li>
-                            <li> <a href=\"#\">Mobile service</a></li>
-                            <li> <a href=\"#\">Network solutions</a></li>
-                            <li> <a href=\"#\">Technical support</a></li>
+                            <li> <a href=\"#\">Mécatronique automobile</a></li>
+                            <li> <a href=\"#\">Formations</a></li>
+                            <li> <a href=\"#\">Installation GPS, Radars et caméra ...</a></li>
                     </div>
                 </div>
                 <div class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
                     <div class=\"contact\">
-                        <h3>Coopérative Baltesco</h3>
-                        <span>Tincidunt elit magnis nulla facilisis. Dolor Sapien nunc amet ultrices, </span>
+                        <h3>Baltesco</h3>
+                        <span>
+                            La coopérative BALTESCO a pour objectif de satisfaire vos besoins de Mécatronique automobile; Formations de qualités;Installation des composantes technologiques des véhicules\" GPS,Radars et Camera de recule,...\" . Autres services.
+                        </span>
                     </div>
                 </div>
             </div>
