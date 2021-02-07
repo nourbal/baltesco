@@ -30,7 +30,7 @@ class __TwigTemplate_082506dae6645ce69f23d3bca43563a600c15e44b8ca90f5c9299cc8c6b
         ];
         $this->sandbox = $this->env->getExtension('\Twig\Extension\SandboxExtension');
         $tags = array();
-        $filters = array("escape" => 57, "date" => 57);
+        $filters = array("escape" => 56, "date" => 56);
         $functions = array();
 
         try {
@@ -66,7 +66,6 @@ class __TwigTemplate_082506dae6645ce69f23d3bca43563a600c15e44b8ca90f5c9299cc8c6b
                 <div class=\"col-md-6 offset-md-3\">
                     <ul class=\"sociel\">
                         <li> <a href=\"https://web.facebook.com/C.Baltesco\"><i class=\"fa fa-facebook\"></i></a></li>
-                        <li> <a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li>
                         <li> <a href=\"#\"><i class=\"fa fa-instagram\"></i></a></li>
                         <li> <a href=\"#\"><i class=\"fa fa-youtube\"></i></a></li>
                     </ul>
@@ -116,7 +115,7 @@ class __TwigTemplate_082506dae6645ce69f23d3bca43563a600c15e44b8ca90f5c9299cc8c6b
         </div>
         <div class=\"copyright\">
             <p>Copyright ";
-        // line 57
+        // line 56
         echo twig_escape_filter($this->env, twig_date_format_filter($this->env, "now", "Y"), "html", null, true);
         echo " Tous droits réservés par <a href=\"#\">baltesco</a></p>
         </div>
@@ -136,7 +135,7 @@ class __TwigTemplate_082506dae6645ce69f23d3bca43563a600c15e44b8ca90f5c9299cc8c6b
 
     public function getDebugInfo()
     {
-        return array (  120 => 57,  62 => 1,);
+        return array (  119 => 56,  62 => 1,);
     }
 
     public function getSourceContext()
@@ -148,7 +147,6 @@ class __TwigTemplate_082506dae6645ce69f23d3bca43563a600c15e44b8ca90f5c9299cc8c6b
                 <div class=\"col-md-6 offset-md-3\">
                     <ul class=\"sociel\">
                         <li> <a href=\"https://web.facebook.com/C.Baltesco\"><i class=\"fa fa-facebook\"></i></a></li>
-                        <li> <a href=\"#\"><i class=\"fa fa-twitter\"></i></a></li>
                         <li> <a href=\"#\"><i class=\"fa fa-instagram\"></i></a></li>
                         <li> <a href=\"#\"><i class=\"fa fa-youtube\"></i></a></li>
                     </ul>
