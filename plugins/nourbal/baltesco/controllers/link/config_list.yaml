@@ -1,0 +1,12 @@
+list: $/nourbal/baltesco/models/link/columns.yaml
+modelClass: Nourbal\Baltesco\Models\Link
+title: Link
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'nourbal/baltesco/link/update/:id'

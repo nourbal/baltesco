@@ -1,0 +1,6 @@
+fields:
+    facebook:
+        label: 'facebook link'
+        span: auto
+        placeholder: 'facebook link'
+        type: text

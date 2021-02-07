@@ -1,0 +1,7 @@
+columns:
+    facebook:
+        label: facebook
+        type: text
+        searchable: true
+        invisible: false
+        sortable: false
