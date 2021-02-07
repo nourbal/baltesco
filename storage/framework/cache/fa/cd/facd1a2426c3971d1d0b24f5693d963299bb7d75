@@ -1,4 +1,4 @@
-1612655157a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:3090:"==
+1612656432a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:3009:"==
 <footer>
     <div class="footer">
         <div class="container">
@@ -6,7 +6,6 @@
                 <div class="col-md-6 offset-md-3">
                     <ul class="sociel">
                         <li> <a href="https://web.facebook.com/C.Baltesco"><i class="fa fa-facebook"></i></a></li>
-                        <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
                         <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
                         <li> <a href="#"><i class="fa fa-youtube"></i></a></li>
                     </ul>
@@ -58,14 +57,13 @@
             <p>Copyright {{ 'now' | date('Y') }} Tous droits réservés par <a href="#">baltesco</a></p>
         </div>
     </div>
-</footer>";s:5:"mtime";i:1612652625;s:6:"markup";s:3086:"<footer>
+</footer>";s:5:"mtime";i:1612655795;s:6:"markup";s:3005:"<footer>
     <div class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 offset-md-3">
                     <ul class="sociel">
                         <li> <a href="https://web.facebook.com/C.Baltesco"><i class="fa fa-facebook"></i></a></li>
-                        <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
                         <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
                         <li> <a href="#"><i class="fa fa-youtube"></i></a></li>
                     </ul>

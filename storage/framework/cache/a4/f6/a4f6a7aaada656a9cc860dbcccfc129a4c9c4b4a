@@ -1,4 +1,4 @@
-1612655157a:1:{s:10:"header.htm";a:6:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:2436:"==
+1612656457a:1:{s:10:"header.htm";a:6:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:2344:"==
 <header>
     <!-- header inner -->
     <div class="header">
@@ -8,10 +8,9 @@
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                         <div class="top-box">
                             <ul class="sociel_link">
-                                <li> <a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                                <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li> <a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li> <a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li> <a href="#"><i class="fa fa-youtube"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -49,7 +48,7 @@
             </div>
         </div>
         <!-- end header inner -->
-</header>";s:5:"mtime";i:1612652625;s:6:"markup";s:2432:"<header>
+</header>";s:5:"mtime";i:1612655855;s:6:"markup";s:2340:"<header>
     <!-- header inner -->
     <div class="header">
         <div class="head_top">
@@ -58,10 +57,9 @@
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                         <div class="top-box">
                             <ul class="sociel_link">
-                                <li> <a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                                <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li> <a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li> <a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li> <a href="#"><i class="fa fa-youtube"></i></a></li>
                             </ul>
                         </div>
                     </div>
