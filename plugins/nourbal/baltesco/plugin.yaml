@@ -11,6 +11,6 @@ navigation:
         icon: icon-car
         sideMenu:
             side-menu-item:
-                label: 'website information'
+                label: 'social network'
                 url: nourbal/baltesco/link
-                icon: icon-info
+                icon: icon-sitemap
