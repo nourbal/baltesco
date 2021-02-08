@@ -1,0 +1,4 @@
+title: Link
+modelClass: Nourbal\Baltesco\Models\Link
+toolbar:
+    buttons: reorder_toolbar

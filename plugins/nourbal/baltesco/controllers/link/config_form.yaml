@@ -1,0 +1,10 @@
+name: Link
+form: $/nourbal/baltesco/models/link/fields.yaml
+modelClass: Nourbal\Baltesco\Models\Link
+defaultRedirect: nourbal/baltesco/link
+create:
+    redirect: 'nourbal/baltesco/link/update/:id'
+    redirectClose: nourbal/baltesco/link
+update:
+    redirect: nourbal/baltesco/link
+    redirectClose: nourbal/baltesco/link
