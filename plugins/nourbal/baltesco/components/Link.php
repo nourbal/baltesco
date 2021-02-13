@@ -25,6 +25,7 @@ class Link extends ComponentBase
                 'options' => [
                     'social_network' => 'show social network links',
                     'quotes' => 'show quotes',
+                    'number' => 'show number',
                 ],
                 'group' => 'Filters'
             ],
@@ -40,6 +41,7 @@ class Link extends ComponentBase
         # link of facebook in frontend
         $this->page['links'] = LinkModel::isSocialNetwork()->get();
         $this->page['quote_title'] = LinkModel::quoteTitle();
+        $this->page['number'] = LinkModel::numberWebsite();
     }
 
 }

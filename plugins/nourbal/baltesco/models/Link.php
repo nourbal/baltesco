@@ -37,5 +37,10 @@ class Link extends Model
     {
         return $query->inRandomOrder()->Where('type', 'quotes')->value('title');
     }
+    // get number of website 
+    public function scopeNumberWebsite($query)
+    {
+        return $query->Where('type', 'number')->value('title');
+    }
       
 }
