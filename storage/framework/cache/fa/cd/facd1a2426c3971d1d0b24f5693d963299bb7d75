@@ -1,4 +1,4 @@
-1613178577a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:3000:"==
+1613179165a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:3000:"==
 <footer>
     <div class="footer">
         <div class="container">
@@ -57,7 +57,7 @@
             <p>Copyright {{ 'now' | date('Y') }} Tous droits réservés par <u>baltesco</u></p>
         </div>
     </div>
-</footer>";s:5:"mtime";i:1613177975;s:6:"markup";s:2996:"<footer>
+</footer>";s:5:"mtime";i:1613178558;s:6:"markup";s:2996:"<footer>
     <div class="footer">
         <div class="container">
             <div class="row">
