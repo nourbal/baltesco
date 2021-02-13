@@ -2,6 +2,8 @@
     {% partial '@social_network' %}
 {% elseif filter_type == 'quotes' %}
     {% partial '@quotes' %}
+{% elseif filter_type == 'number' %}
+	{% partial '@number' %}
 {% else %}
 	nothing
 {% endif %}

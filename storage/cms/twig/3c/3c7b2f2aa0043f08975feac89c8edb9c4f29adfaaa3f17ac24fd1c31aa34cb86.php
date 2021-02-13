@@ -29,7 +29,7 @@ class __TwigTemplate_b2e0751b8c686a0648e8290077983dda80dd5b40b5225cee6550b0c73b3
         $this->blocks = [
         ];
         $this->sandbox = $this->env->getExtension('\Twig\Extension\SandboxExtension');
-        $tags = array("partial" => 42);
+        $tags = array("partial" => 47);
         $filters = array("theme" => 17);
         $functions = array();
 
@@ -105,6 +105,11 @@ class __TwigTemplate_b2e0751b8c686a0648e8290077983dda80dd5b40b5225cee6550b0c73b3
     <!--[if lt IE 9]>
       <script src=\"https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js\"></script>
       <script src=\"https://oss.maxcdn.com/respond/1.4.2/respond.min.js\"></script><![endif]-->
+    <link href=\"//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css\" rel=\"stylesheet\" id=\"bootstrap-css\">
+    <script src=\"//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js\"></script>
+    <script src=\"//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js\"></script>
+    <!------ Include the above in your HEAD tag ---------->
+    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js\"></script>
 </head>
 <!-- body -->
 
@@ -112,66 +117,33 @@ class __TwigTemplate_b2e0751b8c686a0648e8290077983dda80dd5b40b5225cee6550b0c73b3
     <!-- loader  -->
     <div class=\"loader_bg\">
         <div class=\"loader\"><img src=\"";
-        // line 38
+        // line 43
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/loading.gif");
         echo "\" alt=\"#\" /></div>
     </div>
     <!-- end loader -->
     <!-- header -->
     ";
-        // line 42
+        // line 47
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("header"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 43
+        // line 48
         echo "    <!-- end header -->
     <section class=\"slider_section\">
         <div id=\"main_slider\" class=\"carousel slide banner-main\" data-ride=\"carousel\">
             <div class=\"carousel-inner\">
                 <div class=\"carousel-item active\">
                     <img class=\"first-slide\" src=\"";
-        // line 48
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/banner2.jpg");
+        // line 53
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/banner2.png");
         echo "\" alt=\"First slide\">
-                    <div class=\"container\">
-                        <div class=\"carousel-caption relative\">
-                            <h1>Our <br> <strong class=\"black_bold\">Latest </strong><br>
-                                <strong class=\"yellow_bold\">Product </strong></h1>
-                            <p>It is a long established fact that a r <br>
-                                eader will be distracted by the readable content of a page </p>
-                            <a href=\"#\">see more Products</a>
-                        </div>
-                    </div>
-                </div>
-                <div class=\"carousel-item\">
-                    <img class=\"second-slide\" src=\"";
-        // line 60
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/banner2.jpg");
-        echo "\" alt=\"Second slide\">
-                    <div class=\"container\">
-                        <div class=\"carousel-caption relative\">
-                            <h1>Our <br> <strong class=\"black_bold\">Latest </strong><br>
-                                <strong class=\"yellow_bold\">Product </strong></h1>
-                            <p>It is a long established fact that a r <br>
-                                eader will be distracted by the readable content of a page </p>
-                            <a href=\"#\">see more Products</a>
-                        </div>
-                    </div>
                 </div>
                 <div class=\"carousel-item\">
                     <img class=\"third-slide\" src=\"";
-        // line 72
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/banner2.jpg");
+        // line 56
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/banner2.png");
         echo "\" alt=\"Third slide\">
-                    <div class=\"container\">
-                        <div class=\"carousel-caption relative\">
-                            <h1>Our <br> <strong class=\"black_bold\">Latest </strong><br>
-                                <strong class=\"yellow_bold\">Product </strong></h1>
-                            <p>It is a long established fact that a r <br>
-                                eader will be distracted by the readable content of a page </p>
-                            <a href=\"#\">see more Products</a>
-                        </div>
-                    </div>
                 </div>
             </div>
             <a class=\"carousel-control-prev\" href=\"#main_slider\" role=\"button\" data-slide=\"prev\">
@@ -182,79 +154,14 @@ class __TwigTemplate_b2e0751b8c686a0648e8290077983dda80dd5b40b5225cee6550b0c73b3
             </a>
         </div>
     </section>
-    <!-- CHOOSE  -->
-    <div class=\"whyschose\">
-        <div class=\"container\">
-            <div class=\"row\">
-                <div class=\"col-md-7 offset-md-3\">
-                    <div class=\"title\">
-                        <h2>Pourquoi <strong class=\"black\">nous choisir</strong></h2>
-                        <span>Service de réparation le plus rapide au meilleur prix!</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class=\"choose_bg\">
-        <div class=\"container\">
-            <div class=\"white_bg\">
-                <div class=\"row\">
-                    <dir class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
-                        <div class=\"for_box\">
-                            <i><img src=\"";
-        // line 111
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/icon/1.png");
-        echo "\" /></i>
-                            <h3>Data recovery</h3>
-                            <p>Perspiciatis eos quos totam cum minima autPerspiciatis eos quos</p>
-                        </div>
-                    </dir>
-                    <dir class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
-                        <div class=\"for_box\">
-                            <i><img src=\"";
-        // line 118
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/icon/2.png");
-        echo "\" /></i>
-                            <h3>Computer repair</h3>
-                            <p>Perspiciatis eos quos totam cum minima autPerspiciatis eos quos</p>
-                        </div>
-                    </dir>
-                    <dir class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
-                        <div class=\"for_box\">
-                            <i><img src=\"";
-        // line 125
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/icon/3.png");
-        echo "\" /></i>
-                            <h3>Mobile service</h3>
-                            <p>Perspiciatis eos quos totam cum minima autPerspiciatis eos quos</p>
-                        </div>
-                    </dir>
-                    <dir class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
-                        <div class=\"for_box\">
-                            <i><img src=\"";
-        // line 132
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/icon/4.png");
-        echo "\" /></i>
-                            <h3>Network solutions</h3>
-                            <p>Perspiciatis eos quos totam cum minima autPerspiciatis eos quos</p>
-                        </div>
-                    </dir>
-                    <div class=\"col-md-12\">
-                        <a class=\"read-more\">Lire la suite</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end CHOOSE -->
     <!-- service -->
     <div class=\"service\">
         <div class=\"container\">
             <div class=\"row\">
                 <div class=\"col-md-8 offset-md-2\">
                     <div class=\"title\">
-                        <h2>Processus <strong class=\"black\">de service</strong></h2>
-                        <span>Un moyen simple et efficace de faire réparer votre appareil</span>
+                        <h2>Pourquoi <strong class=\"black\">nous choisir</strong></h2>
+                        <span>Service de réparation le plus rapide au meilleur prix!</span>
                     </div>
                 </div>
             </div>
@@ -262,64 +169,114 @@ class __TwigTemplate_b2e0751b8c686a0648e8290077983dda80dd5b40b5225cee6550b0c73b3
                 <div class=\"col-xl-4 col-lg-4 col-md-4 col-sm-12\">
                     <div class=\"service-box\">
                         <i><img src=\"";
-        // line 159
+        // line 81
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/icon/service1.png");
         echo "\" /></i>
-                        <h3>Fast service</h3>
+                        <h3>Service rapide</h3>
                         <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
                     </div>
                 </div>
                 <div class=\"col-xl-4 col-lg-4 col-md-4 col-sm-12\">
                     <div class=\"service-box\">
                         <i><img src=\"";
-        // line 166
+        // line 88
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/icon/service2.png");
         echo "\" /></i>
-                        <h3>Secure payments</h3>
+                        <h3>Réparation partout</h3>
                         <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
                     </div>
                 </div>
                 <div class=\"col-xl-4 col-lg-4 col-md-4 col-sm-12\">
                     <div class=\"service-box\">
                         <i><img src=\"";
-        // line 173
+        // line 95
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/icon/service3.png");
         echo "\" /></i>
-                        <h3>Expert team</h3>
+                        <h3>Équipe d'experts</h3>
                         <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
                     </div>
                 </div>
                 <div class=\"col-xl-4 col-lg-4 col-md-4 col-sm-12\">
                     <div class=\"service-box\">
                         <i><img src=\"";
-        // line 180
+        // line 102
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/icon/service4.png");
         echo "\" /></i>
-                        <h3>Affordable services</h3>
+                        <h3>Des services abordables</h3>
                         <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
                     </div>
                 </div>
                 <div class=\"col-xl-4 col-lg-4 col-md-4 col-sm-12\">
                     <div class=\"service-box\">
                         <i><img src=\"";
-        // line 187
+        // line 109
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/icon/service5.png");
         echo "\" /></i>
-                        <h3>90 Days warranty</h3>
+                        <h3>Garantie de 90 jours</h3>
                         <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
                     </div>
                 </div>
                 <div class=\"col-xl-4 col-lg-4 col-md-4 col-sm-12\">
                     <div class=\"service-box\">
                         <i><img src=\"";
-        // line 194
+        // line 116
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/icon/service6.png");
         echo "\" /></i>
-                        <h3>Award winning</h3>
+                        <h3>Récompensé</h3>
                         <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
                     </div>
                 </div>
             </div>
+            <section class=\"customer-logos slider\">
+                <div class=\"slide\"><img src=\"";
+        // line 123
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/mark/lexus.png");
+        echo "\"></div>
+                <div class=\"slide\"><img src=\"";
+        // line 124
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/mark/mazda.png");
+        echo "\"></div>
+                <div class=\"slide\"><img src=\"";
+        // line 125
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/mark/mercedes.png");
+        echo "\"></div>
+                <div class=\"slide\"><img src=\"";
+        // line 126
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/mark/mg.png");
+        echo "\"></div>
+                <div class=\"slide\"><img src=\"";
+        // line 127
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/mark/mini.png");
+        echo "\"></div>
+                <div class=\"slide\"><img src=\"";
+        // line 128
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/mark/nissan.png");
+        echo "\"></div>
+                <div class=\"slide\"><img src=\"";
+        // line 129
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/mark/opel.png");
+        echo "\"></div>
+                <div class=\"slide\"><img src=\"";
+        // line 130
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/mark/peugeot.png");
+        echo "\"></div>
+                <div class=\"slide\"><img src=\"";
+        // line 131
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/mark/porsche.png");
+        echo "\"></div>
+                <div class=\"slide\"><img src=\"";
+        // line 132
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/mark/renault.png");
+        echo "\"></div>
+                <div class=\"slide\"><img src=\"";
+        // line 133
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/mark/seat.png");
+        echo "\"></div>
+                <div class=\"slide\"><img src=\"";
+        // line 134
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/mark/toyota.png");
+        echo "\"></div>
+            </section>
         </div>
     </div>
     <!-- end service -->
@@ -343,83 +300,76 @@ class __TwigTemplate_b2e0751b8c686a0648e8290077983dda80dd5b40b5225cee6550b0c73b3
                     <div class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
                         <div class=\"product-box\">
                             <i><img src=\"";
-        // line 222
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/icon/p1.png");
+        // line 158
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/cat/motor.png");
         echo "\" /></i>
-                            <h3>Norton Internet Security</h3>
-                            <span>\$25.00</span>
+                            <h3>Pièces moteur</h3>
                         </div>
                     </div>
                     <div class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
                         <div class=\"product-box\">
                             <i><img src=\"";
-        // line 229
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/icon/p2.png");
+        // line 164
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/cat/motor.png");
         echo "\" /></i>
-                            <h3>Norton Internet Security</h3>
-                            <span>\$25.00</span>
+                            <h3>Pièces moteur</h3>
                         </div>
                     </div>
                     <div class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
                         <div class=\"product-box\">
                             <i><img src=\"";
-        // line 236
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/icon/p3.png");
+        // line 170
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/cat/motor.png");
         echo "\" /></i>
-                            <h3>Norton Internet Security</h3>
-                            <span>\$25.00</span>
+                            <h3>Pièces moteur</h3>
                         </div>
                     </div>
                     <div class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
                         <div class=\"product-box\">
                             <i><img src=\"";
-        // line 243
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/icon/p4.png");
+        // line 176
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/cat/motor.png");
         echo "\" /></i>
-                            <h3>Norton Internet Security</h3>
-                            <span>\$25.00</span>
+                            <h3>Pièces moteur</h3>
                         </div>
                     </div>
                     <div class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
                         <div class=\"product-box\">
                             <i><img src=\"";
-        // line 250
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/icon/p5.png");
+        // line 182
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/cat/motor.png");
         echo "\" /></i>
-                            <h3>Norton Internet Security</h3>
-                            <span>\$25.00</span>
+                            <h3>Pièces moteur</h3>
                         </div>
                     </div>
                     <div class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
                         <div class=\"product-box\">
                             <i><img src=\"";
-        // line 257
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/icon/p2.png");
+        // line 188
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/cat/motor.png");
         echo "\" /></i>
-                            <h3>Norton Internet Security</h3>
-                            <span>\$25.00</span>
+                            <h3>Pièces moteur</h3>
                         </div>
                     </div>
                     <div class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
                         <div class=\"product-box\">
                             <i><img src=\"";
-        // line 264
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/icon/p6.png");
+        // line 194
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/cat/motor.png");
         echo "\" /></i>
-                            <h3>Norton Internet Security</h3>
-                            <span>\$25.00</span>
+                            <h3>Pièces moteur</h3>
                         </div>
                     </div>
                     <div class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
                         <div class=\"product-box\">
                             <i><img src=\"";
-        // line 271
-        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/icon/p7.png");
+        // line 200
+        echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/images/cat/motor.png");
         echo "\" /></i>
-                            <h3>Norton Internet Security</h3>
-                            <span>\$25.00</span>
+                            <h3>Pièces moteur</h3>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
@@ -427,48 +377,48 @@ class __TwigTemplate_b2e0751b8c686a0648e8290077983dda80dd5b40b5225cee6550b0c73b3
     <!-- end our product -->
     <!-- contact -->
     ";
-        // line 282
+        // line 211
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("contact"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 283
+        // line 212
         echo "    <!-- end contact -->
     <!--  footer -->
     ";
-        // line 285
+        // line 214
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("footer"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 286
+        // line 215
         echo "    <!-- end footer -->
     <!-- Javascript files-->
     <script src=\"";
-        // line 288
+        // line 217
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/jquery.min.js");
         echo "\"></script>
     <script src=\"";
-        // line 289
+        // line 218
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/popper.min.js");
         echo "\"></script>
     <script src=\"";
-        // line 290
+        // line 219
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/bootstrap.bundle.min.js");
         echo "\"></script>
     <script src=\"";
-        // line 291
+        // line 220
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/jquery-3.0.0.min.js");
         echo "\"></script>
     <script src=\"";
-        // line 292
+        // line 221
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/plugin.js");
         echo "\"></script>
     <!-- sidebar -->
     <script src=\"";
-        // line 294
+        // line 223
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/jquery.mCustomScrollbar.concat.min.js");
         echo "\"></script>
     <script src=\"";
-        // line 295
+        // line 224
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/js/custom.js");
         echo "\"></script>
     <script src=\"https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js\"></script>
@@ -505,7 +455,7 @@ class __TwigTemplate_b2e0751b8c686a0648e8290077983dda80dd5b40b5225cee6550b0c73b3
 
     public function getDebugInfo()
     {
-        return array (  472 => 295,  468 => 294,  463 => 292,  459 => 291,  455 => 290,  451 => 289,  447 => 288,  443 => 286,  439 => 285,  435 => 283,  431 => 282,  417 => 271,  407 => 264,  397 => 257,  387 => 250,  377 => 243,  367 => 236,  357 => 229,  347 => 222,  316 => 194,  306 => 187,  296 => 180,  286 => 173,  276 => 166,  266 => 159,  236 => 132,  226 => 125,  216 => 118,  206 => 111,  164 => 72,  149 => 60,  134 => 48,  127 => 43,  123 => 42,  116 => 38,  100 => 25,  95 => 23,  90 => 21,  85 => 19,  80 => 17,  62 => 1,);
+        return array (  422 => 224,  418 => 223,  413 => 221,  409 => 220,  405 => 219,  401 => 218,  397 => 217,  393 => 215,  389 => 214,  385 => 212,  381 => 211,  367 => 200,  358 => 194,  349 => 188,  340 => 182,  331 => 176,  322 => 170,  313 => 164,  304 => 158,  277 => 134,  273 => 133,  269 => 132,  265 => 131,  261 => 130,  257 => 129,  253 => 128,  249 => 127,  245 => 126,  241 => 125,  237 => 124,  233 => 123,  223 => 116,  213 => 109,  203 => 102,  193 => 95,  183 => 88,  173 => 81,  145 => 56,  139 => 53,  132 => 48,  128 => 47,  121 => 43,  100 => 25,  95 => 23,  90 => 21,  85 => 19,  80 => 17,  62 => 1,);
     }
 
     public function getSourceContext()
@@ -541,6 +491,11 @@ class __TwigTemplate_b2e0751b8c686a0648e8290077983dda80dd5b40b5225cee6550b0c73b3
     <!--[if lt IE 9]>
       <script src=\"https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js\"></script>
       <script src=\"https://oss.maxcdn.com/respond/1.4.2/respond.min.js\"></script><![endif]-->
+    <link href=\"//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css\" rel=\"stylesheet\" id=\"bootstrap-css\">
+    <script src=\"//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js\"></script>
+    <script src=\"//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js\"></script>
+    <!------ Include the above in your HEAD tag ---------->
+    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js\"></script>
 </head>
 <!-- body -->
 
@@ -557,40 +512,10 @@ class __TwigTemplate_b2e0751b8c686a0648e8290077983dda80dd5b40b5225cee6550b0c73b3
         <div id=\"main_slider\" class=\"carousel slide banner-main\" data-ride=\"carousel\">
             <div class=\"carousel-inner\">
                 <div class=\"carousel-item active\">
-                    <img class=\"first-slide\" src=\"{{ 'assets/images/banner2.jpg'|theme }}\" alt=\"First slide\">
-                    <div class=\"container\">
-                        <div class=\"carousel-caption relative\">
-                            <h1>Our <br> <strong class=\"black_bold\">Latest </strong><br>
-                                <strong class=\"yellow_bold\">Product </strong></h1>
-                            <p>It is a long established fact that a r <br>
-                                eader will be distracted by the readable content of a page </p>
-                            <a href=\"#\">see more Products</a>
-                        </div>
-                    </div>
+                    <img class=\"first-slide\" src=\"{{ 'assets/images/banner2.png'|theme }}\" alt=\"First slide\">
                 </div>
                 <div class=\"carousel-item\">
-                    <img class=\"second-slide\" src=\"{{ 'assets/images/banner2.jpg'|theme }}\" alt=\"Second slide\">
-                    <div class=\"container\">
-                        <div class=\"carousel-caption relative\">
-                            <h1>Our <br> <strong class=\"black_bold\">Latest </strong><br>
-                                <strong class=\"yellow_bold\">Product </strong></h1>
-                            <p>It is a long established fact that a r <br>
-                                eader will be distracted by the readable content of a page </p>
-                            <a href=\"#\">see more Products</a>
-                        </div>
-                    </div>
-                </div>
-                <div class=\"carousel-item\">
-                    <img class=\"third-slide\" src=\"{{ 'assets/images/banner2.jpg'|theme }}\" alt=\"Third slide\">
-                    <div class=\"container\">
-                        <div class=\"carousel-caption relative\">
-                            <h1>Our <br> <strong class=\"black_bold\">Latest </strong><br>
-                                <strong class=\"yellow_bold\">Product </strong></h1>
-                            <p>It is a long established fact that a r <br>
-                                eader will be distracted by the readable content of a page </p>
-                            <a href=\"#\">see more Products</a>
-                        </div>
-                    </div>
+                    <img class=\"third-slide\" src=\"{{ 'assets/images/banner2.png'|theme }}\" alt=\"Third slide\">
                 </div>
             </div>
             <a class=\"carousel-control-prev\" href=\"#main_slider\" role=\"button\" data-slide=\"prev\">
@@ -601,67 +526,14 @@ class __TwigTemplate_b2e0751b8c686a0648e8290077983dda80dd5b40b5225cee6550b0c73b3
             </a>
         </div>
     </section>
-    <!-- CHOOSE  -->
-    <div class=\"whyschose\">
-        <div class=\"container\">
-            <div class=\"row\">
-                <div class=\"col-md-7 offset-md-3\">
-                    <div class=\"title\">
-                        <h2>Pourquoi <strong class=\"black\">nous choisir</strong></h2>
-                        <span>Service de réparation le plus rapide au meilleur prix!</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class=\"choose_bg\">
-        <div class=\"container\">
-            <div class=\"white_bg\">
-                <div class=\"row\">
-                    <dir class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
-                        <div class=\"for_box\">
-                            <i><img src=\"{{ 'assets/icon/1.png'|theme }}\" /></i>
-                            <h3>Data recovery</h3>
-                            <p>Perspiciatis eos quos totam cum minima autPerspiciatis eos quos</p>
-                        </div>
-                    </dir>
-                    <dir class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
-                        <div class=\"for_box\">
-                            <i><img src=\"{{ 'assets/icon/2.png'|theme }}\" /></i>
-                            <h3>Computer repair</h3>
-                            <p>Perspiciatis eos quos totam cum minima autPerspiciatis eos quos</p>
-                        </div>
-                    </dir>
-                    <dir class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
-                        <div class=\"for_box\">
-                            <i><img src=\"{{ 'assets/icon/3.png'|theme }}\" /></i>
-                            <h3>Mobile service</h3>
-                            <p>Perspiciatis eos quos totam cum minima autPerspiciatis eos quos</p>
-                        </div>
-                    </dir>
-                    <dir class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
-                        <div class=\"for_box\">
-                            <i><img src=\"{{ 'assets/icon/4.png'|theme }}\" /></i>
-                            <h3>Network solutions</h3>
-                            <p>Perspiciatis eos quos totam cum minima autPerspiciatis eos quos</p>
-                        </div>
-                    </dir>
-                    <div class=\"col-md-12\">
-                        <a class=\"read-more\">Lire la suite</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end CHOOSE -->
     <!-- service -->
     <div class=\"service\">
         <div class=\"container\">
             <div class=\"row\">
                 <div class=\"col-md-8 offset-md-2\">
                     <div class=\"title\">
-                        <h2>Processus <strong class=\"black\">de service</strong></h2>
-                        <span>Un moyen simple et efficace de faire réparer votre appareil</span>
+                        <h2>Pourquoi <strong class=\"black\">nous choisir</strong></h2>
+                        <span>Service de réparation le plus rapide au meilleur prix!</span>
                     </div>
                 </div>
             </div>
@@ -669,46 +541,60 @@ class __TwigTemplate_b2e0751b8c686a0648e8290077983dda80dd5b40b5225cee6550b0c73b3
                 <div class=\"col-xl-4 col-lg-4 col-md-4 col-sm-12\">
                     <div class=\"service-box\">
                         <i><img src=\"{{ 'assets/icon/service1.png'|theme }}\" /></i>
-                        <h3>Fast service</h3>
+                        <h3>Service rapide</h3>
                         <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
                     </div>
                 </div>
                 <div class=\"col-xl-4 col-lg-4 col-md-4 col-sm-12\">
                     <div class=\"service-box\">
                         <i><img src=\"{{ 'assets/icon/service2.png'|theme }}\" /></i>
-                        <h3>Secure payments</h3>
+                        <h3>Réparation partout</h3>
                         <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
                     </div>
                 </div>
                 <div class=\"col-xl-4 col-lg-4 col-md-4 col-sm-12\">
                     <div class=\"service-box\">
                         <i><img src=\"{{ 'assets/icon/service3.png'|theme }}\" /></i>
-                        <h3>Expert team</h3>
+                        <h3>Équipe d'experts</h3>
                         <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
                     </div>
                 </div>
                 <div class=\"col-xl-4 col-lg-4 col-md-4 col-sm-12\">
                     <div class=\"service-box\">
                         <i><img src=\"{{ 'assets/icon/service4.png'|theme }}\" /></i>
-                        <h3>Affordable services</h3>
+                        <h3>Des services abordables</h3>
                         <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
                     </div>
                 </div>
                 <div class=\"col-xl-4 col-lg-4 col-md-4 col-sm-12\">
                     <div class=\"service-box\">
                         <i><img src=\"{{ 'assets/icon/service5.png'|theme }}\" /></i>
-                        <h3>90 Days warranty</h3>
+                        <h3>Garantie de 90 jours</h3>
                         <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
                     </div>
                 </div>
                 <div class=\"col-xl-4 col-lg-4 col-md-4 col-sm-12\">
                     <div class=\"service-box\">
                         <i><img src=\"{{ 'assets/icon/service6.png'|theme }}\" /></i>
-                        <h3>Award winning</h3>
+                        <h3>Récompensé</h3>
                         <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
                     </div>
                 </div>
             </div>
+            <section class=\"customer-logos slider\">
+                <div class=\"slide\"><img src=\"{{ 'assets/images/mark/lexus.png'|theme }}\"></div>
+                <div class=\"slide\"><img src=\"{{ 'assets/images/mark/mazda.png'|theme }}\"></div>
+                <div class=\"slide\"><img src=\"{{ 'assets/images/mark/mercedes.png'|theme }}\"></div>
+                <div class=\"slide\"><img src=\"{{ 'assets/images/mark/mg.png'|theme }}\"></div>
+                <div class=\"slide\"><img src=\"{{ 'assets/images/mark/mini.png'|theme }}\"></div>
+                <div class=\"slide\"><img src=\"{{ 'assets/images/mark/nissan.png'|theme }}\"></div>
+                <div class=\"slide\"><img src=\"{{ 'assets/images/mark/opel.png'|theme }}\"></div>
+                <div class=\"slide\"><img src=\"{{ 'assets/images/mark/peugeot.png'|theme }}\"></div>
+                <div class=\"slide\"><img src=\"{{ 'assets/images/mark/porsche.png'|theme }}\"></div>
+                <div class=\"slide\"><img src=\"{{ 'assets/images/mark/renault.png'|theme }}\"></div>
+                <div class=\"slide\"><img src=\"{{ 'assets/images/mark/seat.png'|theme }}\"></div>
+                <div class=\"slide\"><img src=\"{{ 'assets/images/mark/toyota.png'|theme }}\"></div>
+            </section>
         </div>
     </div>
     <!-- end service -->
@@ -731,60 +617,53 @@ class __TwigTemplate_b2e0751b8c686a0648e8290077983dda80dd5b40b5225cee6550b0c73b3
                 <div class=\"row\">
                     <div class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
                         <div class=\"product-box\">
-                            <i><img src=\"{{ 'assets/icon/p1.png'|theme }}\" /></i>
-                            <h3>Norton Internet Security</h3>
-                            <span>\$25.00</span>
+                            <i><img src=\"{{ 'assets/images/cat/motor.png'|theme }}\" /></i>
+                            <h3>Pièces moteur</h3>
                         </div>
                     </div>
                     <div class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
                         <div class=\"product-box\">
-                            <i><img src=\"{{ 'assets/icon/p2.png'|theme }}\" /></i>
-                            <h3>Norton Internet Security</h3>
-                            <span>\$25.00</span>
+                            <i><img src=\"{{ 'assets/images/cat/motor.png'|theme }}\" /></i>
+                            <h3>Pièces moteur</h3>
                         </div>
                     </div>
                     <div class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
                         <div class=\"product-box\">
-                            <i><img src=\"{{ 'assets/icon/p3.png'|theme }}\" /></i>
-                            <h3>Norton Internet Security</h3>
-                            <span>\$25.00</span>
+                            <i><img src=\"{{ 'assets/images/cat/motor.png'|theme }}\" /></i>
+                            <h3>Pièces moteur</h3>
                         </div>
                     </div>
                     <div class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
                         <div class=\"product-box\">
-                            <i><img src=\"{{ 'assets/icon/p4.png'|theme }}\" /></i>
-                            <h3>Norton Internet Security</h3>
-                            <span>\$25.00</span>
+                            <i><img src=\"{{ 'assets/images/cat/motor.png'|theme }}\" /></i>
+                            <h3>Pièces moteur</h3>
                         </div>
                     </div>
                     <div class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
                         <div class=\"product-box\">
-                            <i><img src=\"{{ 'assets/icon/p5.png'|theme }}\" /></i>
-                            <h3>Norton Internet Security</h3>
-                            <span>\$25.00</span>
+                            <i><img src=\"{{ 'assets/images/cat/motor.png'|theme }}\" /></i>
+                            <h3>Pièces moteur</h3>
                         </div>
                     </div>
                     <div class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
                         <div class=\"product-box\">
-                            <i><img src=\"{{ 'assets/icon/p2.png'|theme }}\" /></i>
-                            <h3>Norton Internet Security</h3>
-                            <span>\$25.00</span>
+                            <i><img src=\"{{ 'assets/images/cat/motor.png'|theme }}\" /></i>
+                            <h3>Pièces moteur</h3>
                         </div>
                     </div>
                     <div class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
                         <div class=\"product-box\">
-                            <i><img src=\"{{ 'assets/icon/p6.png'|theme }}\" /></i>
-                            <h3>Norton Internet Security</h3>
-                            <span>\$25.00</span>
+                            <i><img src=\"{{ 'assets/images/cat/motor.png'|theme }}\" /></i>
+                            <h3>Pièces moteur</h3>
                         </div>
                     </div>
                     <div class=\"col-xl-3 col-lg-3 col-md-6 col-sm-12\">
                         <div class=\"product-box\">
-                            <i><img src=\"{{ 'assets/icon/p7.png'|theme }}\" /></i>
-                            <h3>Norton Internet Security</h3>
-                            <span>\$25.00</span>
+                            <i><img src=\"{{ 'assets/images/cat/motor.png'|theme }}\" /></i>
+                            <h3>Pièces moteur</h3>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>

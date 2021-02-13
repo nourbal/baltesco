@@ -117,7 +117,7 @@ class __TwigTemplate_082506dae6645ce69f23d3bca43563a600c15e44b8ca90f5c9299cc8c6b
             <p>Copyright ";
         // line 56
         echo twig_escape_filter($this->env, twig_date_format_filter($this->env, "now", "Y"), "html", null, true);
-        echo " Tous droits réservés par <a href=\"#\">baltesco</a></p>
+        echo " Tous droits réservés par <u>baltesco</u></p>
         </div>
     </div>
 </footer>";
@@ -195,7 +195,7 @@ class __TwigTemplate_082506dae6645ce69f23d3bca43563a600c15e44b8ca90f5c9299cc8c6b
             </div>
         </div>
         <div class=\"copyright\">
-            <p>Copyright {{ 'now' | date('Y') }} Tous droits réservés par <a href=\"#\">baltesco</a></p>
+            <p>Copyright {{ 'now' | date('Y') }} Tous droits réservés par <u>baltesco</u></p>
         </div>
     </div>
 </footer>", "C:\\laragon\\www\\baltesco/themes/baltesco/partials/footer.htm", "");
