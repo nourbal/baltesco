@@ -6,6 +6,7 @@ fields:
             instagram: instagram
             youtube: youtube
             quotes: quotes
+            number: number
         showSearch: true
         span: left
         required: 1
