@@ -1,0 +1,35 @@
+<div class="confirm-container">
+    <!--This will contain the confirmation when the email is successfully sent-->
+</div>
+
+
+<form class="main_form flexiContactForm" role="form"
+      data-request="{{ __SELF__ }}::onMailSent"
+      data-request-update="'{{ __SELF__ }}::confirm': '.confirm-container'">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <input class="form-control" placeholder="Nom complet" type="text" name="name">
+                </div>
+                <div class="col-md-12 col-sm-12">
+                    <input class="form-control" placeholder="Email" type="text" name="email">
+                </div>
+                <div class="col-md-12 col-sm-12">
+                    <input class="form-control" placeholder="Téléphone" type="text" name="phone">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <textarea class="textarea" placeholder="Message" name="body" style="min-height: 170px"></textarea>
+        </div>
+        {% if __SELF__.enableCaptcha %}
+            <div class="form-group">
+                <div class="g-recaptcha" data-sitekey="{{ __SELF__.siteKey }}"></div>
+            </div>
+        {% endif %}
+        <div class=" col-md-12">
+            <button class="btn btn-dark" type="submit"><i class="fa fa-envelope-o"></i> Envoyer</button>
+        </div>
+    </div>
+</form>

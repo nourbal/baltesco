@@ -1,78 +1,96 @@
-1587786653a:1:{s:10:"header.htm";a:6:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:1174:"description = "header of the page"
-==
-
-<!-- Navigation -->
-<a class="menu-toggle rounded" href="#">
-<i class="fas fa-bars"></i>
-</a>
-<nav id="sidebar-wrapper">
-<ul class="sidebar-nav">
-  <li class="sidebar-brand">
-    <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-  </li>
-  <li class="sidebar-nav-item">
-    <a class="js-scroll-trigger" href="#page-top">Home</a>
-  </li>
-  <li class="sidebar-nav-item">
-    <a class="js-scroll-trigger" href="#about">About</a>
-  </li>
-  <li class="sidebar-nav-item">
-    <a class="js-scroll-trigger" href="#services">Services</a>
-  </li>
-  <li class="sidebar-nav-item">
-    <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
-  </li>
-  <li class="sidebar-nav-item">
-    <a class="js-scroll-trigger" href="#contact">Contact</a>
-  </li>
-</ul>
-</nav>
-
-<!-- Header -->
-<header class="masthead d-flex">
-<div class="container text-center my-auto">
-  <h1 class="mb-1">Baltesco.com</h1>
-  <h3 class="mb-5">
-    <em>coopérative baltesco</em>
-  </h3>
-  <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
-</div>
-<div class="overlay"></div>
-</header>";s:5:"mtime";i:1587785977;s:6:"markup";s:1132:"<!-- Navigation -->
-<a class="menu-toggle rounded" href="#">
-<i class="fas fa-bars"></i>
-</a>
-<nav id="sidebar-wrapper">
-<ul class="sidebar-nav">
-  <li class="sidebar-brand">
-    <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-  </li>
-  <li class="sidebar-nav-item">
-    <a class="js-scroll-trigger" href="#page-top">Home</a>
-  </li>
-  <li class="sidebar-nav-item">
-    <a class="js-scroll-trigger" href="#about">About</a>
-  </li>
-  <li class="sidebar-nav-item">
-    <a class="js-scroll-trigger" href="#services">Services</a>
-  </li>
-  <li class="sidebar-nav-item">
-    <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
-  </li>
-  <li class="sidebar-nav-item">
-    <a class="js-scroll-trigger" href="#contact">Contact</a>
-  </li>
-</ul>
-</nav>
-
-<!-- Header -->
-<header class="masthead d-flex">
-<div class="container text-center my-auto">
-  <h1 class="mb-1">Baltesco.com</h1>
-  <h3 class="mb-5">
-    <em>coopérative baltesco</em>
-  </h3>
-  <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
-</div>
-<div class="overlay"></div>
-</header>";s:4:"code";N;s:11:"description";s:18:"header of the page";}}
+1630711580a:1:{s:10:"header.htm";a:6:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:2060:"==
+<header>
+    <!-- header inner -->
+    <div class="header">
+        <div class="head_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <div class="top-box">
+                            <ul class="sociel_link">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <div class="top-box">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                    <div class="full">
+                        <div class="center-desk">
+                            <div class="logo"> <a href="/"><img src="{{ 'assets/images/logo.png'|theme }}" alt="logo" /></a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-9 col-sm-9">
+                    <div class="menu-area">
+                        <div class="limit-box">
+                            <nav class="main-menu">
+                                <ul class="menu-area-main">
+                                    <li> <a href="about.html">Qui somme-nous?</a> </li>
+                                    <li> <a href="product.html">Produits</a> </li>
+                                    <li> <a href="blog.html">Blog</a> </li>
+                                    <li> <a href="{{ 'contact'|page }}">Nous contacter</a> </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end header inner -->
+</header>";s:5:"mtime";i:1630710108;s:6:"markup";s:2056:"<header>
+    <!-- header inner -->
+    <div class="header">
+        <div class="head_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <div class="top-box">
+                            <ul class="sociel_link">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <div class="top-box">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                    <div class="full">
+                        <div class="center-desk">
+                            <div class="logo"> <a href="/"><img src="{{ 'assets/images/logo.png'|theme }}" alt="logo" /></a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-9 col-sm-9">
+                    <div class="menu-area">
+                        <div class="limit-box">
+                            <nav class="main-menu">
+                                <ul class="menu-area-main">
+                                    <li> <a href="about.html">Qui somme-nous?</a> </li>
+                                    <li> <a href="product.html">Produits</a> </li>
+                                    <li> <a href="blog.html">Blog</a> </li>
+                                    <li> <a href="{{ 'contact'|page }}">Nous contacter</a> </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end header inner -->
+</header>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}
