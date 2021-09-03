@@ -1,0 +1,45 @@
+title = "contact"
+url = "/contact"
+layout = "default"
+is_hidden = 0
+
+[contactForm]
+injectBootstrapAssets = 1
+injectMainScript = 1
+==
+<!-- header -->
+    {% partial "header" %}
+    <!-- end header -->
+    
+<div class="contact" style="padding: 30px">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title">
+                    <h2>Contactez-<strong class="black">nous</strong></h2>
+                    <div class="row" style="font-size: 22px">
+                        <div class="col-md-4">
+                            <i class="fa fa-phone"></i>
+                            <h6>
+                                Tél : (+212)670028569<br>
+                                Fax : (+212)612345678
+                            </h6>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</h6>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            <h6>baltescoop@gmail.com</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                {% component 'contactForm' %}
+            </div>
+        </div>
+    </div>
+</div>

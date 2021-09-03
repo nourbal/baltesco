@@ -1,0 +1,344 @@
+1630711253a:1:{s:17:"page-daccueil.htm";a:10:{s:8:"fileName";s:17:"page-daccueil.htm";s:7:"content";s:8821:"title = "page d'accueil"
+url = "/"
+layout = "default"
+description = "page d'accueil de baltesco"
+is_hidden = 0
+==
+
+<!-- header -->
+    {% partial "header" %}
+    <!-- end header -->
+
+<section class="slider_section">
+        <div id="main_slider" class="carousel slide banner-main" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="first-slide" src="{{ 'assets/images/banner2.png'|theme }}" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="third-slide" src="{{ 'assets/images/banner2.png'|theme }}" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+                <i class='fa fa-angle-right'></i>
+            </a>
+            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+                <i class='fa fa-angle-left'></i>
+            </a>
+        </div>
+    </section>
+    <!-- service -->
+    <div class="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <div class="title">
+                        <h2>Pourquoi <strong class="black">nous choisir</strong></h2>
+                        <span>Service de réparation le plus rapide au meilleur prix!</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                    <div class="service-box">
+                        <i><img src="{{ 'assets/icon/service1.png'|theme }}" /></i>
+                        <h3>Service rapide</h3>
+                        <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                    <div class="service-box">
+                        <i><img src="{{ 'assets/icon/service2.png'|theme }}" /></i>
+                        <h3>Réparation partout</h3>
+                        <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                    <div class="service-box">
+                        <i><img src="{{ 'assets/icon/service3.png'|theme }}" /></i>
+                        <h3>Équipe d'experts</h3>
+                        <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                    <div class="service-box">
+                        <i><img src="{{ 'assets/icon/service4.png'|theme }}" /></i>
+                        <h3>Des services abordables</h3>
+                        <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                    <div class="service-box">
+                        <i><img src="{{ 'assets/icon/service5.png'|theme }}" /></i>
+                        <h3>Garantie de 90 jours</h3>
+                        <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                    <div class="service-box">
+                        <i><img src="{{ 'assets/icon/service6.png'|theme }}" /></i>
+                        <h3>Récompensé</h3>
+                        <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
+                    </div>
+                </div>
+            </div>
+            <section class="customer-logos slider">
+                <div class="slide"><img src="{{ 'assets/images/mark/lexus.png'|theme }}"></div>
+                <div class="slide"><img src="{{ 'assets/images/mark/mazda.png'|theme }}"></div>
+                <div class="slide"><img src="{{ 'assets/images/mark/mercedes.png'|theme }}"></div>
+                <div class="slide"><img src="{{ 'assets/images/mark/mg.png'|theme }}"></div>
+                <div class="slide"><img src="{{ 'assets/images/mark/mini.png'|theme }}"></div>
+                <div class="slide"><img src="{{ 'assets/images/mark/nissan.png'|theme }}"></div>
+                <div class="slide"><img src="{{ 'assets/images/mark/opel.png'|theme }}"></div>
+                <div class="slide"><img src="{{ 'assets/images/mark/peugeot.png'|theme }}"></div>
+                <div class="slide"><img src="{{ 'assets/images/mark/porsche.png'|theme }}"></div>
+                <div class="slide"><img src="{{ 'assets/images/mark/renault.png'|theme }}"></div>
+                <div class="slide"><img src="{{ 'assets/images/mark/seat.png'|theme }}"></div>
+                <div class="slide"><img src="{{ 'assets/images/mark/toyota.png'|theme }}"></div>
+            </section>
+        </div>
+    </div>
+    <!-- end service -->
+    <!-- our product -->
+    <div class="product">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title">
+                        <h2>Nos <strong class="black">produits</strong></h2>
+                        <span>Nous emballons les produits avec les meilleurs services pour faire de vous un client satisfait.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-bg">
+        <div class="product-bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="product-box">
+                            <i><img src="{{ 'assets/images/cat/motor.png'|theme }}" /></i>
+                            <h3>Pièces moteur</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="product-box">
+                            <i><img src="{{ 'assets/images/cat/motor.png'|theme }}" /></i>
+                            <h3>Pièces moteur</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="product-box">
+                            <i><img src="{{ 'assets/images/cat/motor.png'|theme }}" /></i>
+                            <h3>Pièces moteur</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="product-box">
+                            <i><img src="{{ 'assets/images/cat/motor.png'|theme }}" /></i>
+                            <h3>Pièces moteur</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="product-box">
+                            <i><img src="{{ 'assets/images/cat/motor.png'|theme }}" /></i>
+                            <h3>Pièces moteur</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="product-box">
+                            <i><img src="{{ 'assets/images/cat/motor.png'|theme }}" /></i>
+                            <h3>Pièces moteur</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="product-box">
+                            <i><img src="{{ 'assets/images/cat/motor.png'|theme }}" /></i>
+                            <h3>Pièces moteur</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="product-box">
+                            <i><img src="{{ 'assets/images/cat/motor.png'|theme }}" /></i>
+                            <h3>Pièces moteur</h3>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end our product -->
+
+    <!-- contact -->
+    {% partial "contact" %}
+    <!-- end contact -->";s:5:"mtime";i:1630709873;s:6:"markup";s:8699:"<!-- header -->
+    {% partial "header" %}
+    <!-- end header -->
+
+<section class="slider_section">
+        <div id="main_slider" class="carousel slide banner-main" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="first-slide" src="{{ 'assets/images/banner2.png'|theme }}" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="third-slide" src="{{ 'assets/images/banner2.png'|theme }}" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+                <i class='fa fa-angle-right'></i>
+            </a>
+            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+                <i class='fa fa-angle-left'></i>
+            </a>
+        </div>
+    </section>
+    <!-- service -->
+    <div class="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <div class="title">
+                        <h2>Pourquoi <strong class="black">nous choisir</strong></h2>
+                        <span>Service de réparation le plus rapide au meilleur prix!</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                    <div class="service-box">
+                        <i><img src="{{ 'assets/icon/service1.png'|theme }}" /></i>
+                        <h3>Service rapide</h3>
+                        <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                    <div class="service-box">
+                        <i><img src="{{ 'assets/icon/service2.png'|theme }}" /></i>
+                        <h3>Réparation partout</h3>
+                        <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                    <div class="service-box">
+                        <i><img src="{{ 'assets/icon/service3.png'|theme }}" /></i>
+                        <h3>Équipe d'experts</h3>
+                        <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                    <div class="service-box">
+                        <i><img src="{{ 'assets/icon/service4.png'|theme }}" /></i>
+                        <h3>Des services abordables</h3>
+                        <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                    <div class="service-box">
+                        <i><img src="{{ 'assets/icon/service5.png'|theme }}" /></i>
+                        <h3>Garantie de 90 jours</h3>
+                        <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                    <div class="service-box">
+                        <i><img src="{{ 'assets/icon/service6.png'|theme }}" /></i>
+                        <h3>Récompensé</h3>
+                        <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
+                    </div>
+                </div>
+            </div>
+            <section class="customer-logos slider">
+                <div class="slide"><img src="{{ 'assets/images/mark/lexus.png'|theme }}"></div>
+                <div class="slide"><img src="{{ 'assets/images/mark/mazda.png'|theme }}"></div>
+                <div class="slide"><img src="{{ 'assets/images/mark/mercedes.png'|theme }}"></div>
+                <div class="slide"><img src="{{ 'assets/images/mark/mg.png'|theme }}"></div>
+                <div class="slide"><img src="{{ 'assets/images/mark/mini.png'|theme }}"></div>
+                <div class="slide"><img src="{{ 'assets/images/mark/nissan.png'|theme }}"></div>
+                <div class="slide"><img src="{{ 'assets/images/mark/opel.png'|theme }}"></div>
+                <div class="slide"><img src="{{ 'assets/images/mark/peugeot.png'|theme }}"></div>
+                <div class="slide"><img src="{{ 'assets/images/mark/porsche.png'|theme }}"></div>
+                <div class="slide"><img src="{{ 'assets/images/mark/renault.png'|theme }}"></div>
+                <div class="slide"><img src="{{ 'assets/images/mark/seat.png'|theme }}"></div>
+                <div class="slide"><img src="{{ 'assets/images/mark/toyota.png'|theme }}"></div>
+            </section>
+        </div>
+    </div>
+    <!-- end service -->
+    <!-- our product -->
+    <div class="product">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title">
+                        <h2>Nos <strong class="black">produits</strong></h2>
+                        <span>Nous emballons les produits avec les meilleurs services pour faire de vous un client satisfait.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-bg">
+        <div class="product-bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="product-box">
+                            <i><img src="{{ 'assets/images/cat/motor.png'|theme }}" /></i>
+                            <h3>Pièces moteur</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="product-box">
+                            <i><img src="{{ 'assets/images/cat/motor.png'|theme }}" /></i>
+                            <h3>Pièces moteur</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="product-box">
+                            <i><img src="{{ 'assets/images/cat/motor.png'|theme }}" /></i>
+                            <h3>Pièces moteur</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="product-box">
+                            <i><img src="{{ 'assets/images/cat/motor.png'|theme }}" /></i>
+                            <h3>Pièces moteur</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="product-box">
+                            <i><img src="{{ 'assets/images/cat/motor.png'|theme }}" /></i>
+                            <h3>Pièces moteur</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="product-box">
+                            <i><img src="{{ 'assets/images/cat/motor.png'|theme }}" /></i>
+                            <h3>Pièces moteur</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="product-box">
+                            <i><img src="{{ 'assets/images/cat/motor.png'|theme }}" /></i>
+                            <h3>Pièces moteur</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="product-box">
+                            <i><img src="{{ 'assets/images/cat/motor.png'|theme }}" /></i>
+                            <h3>Pièces moteur</h3>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end our product -->
+
+    <!-- contact -->
+    {% partial "contact" %}
+    <!-- end contact -->";s:4:"code";N;s:5:"title";s:14:"page d'accueil";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:11:"description";s:26:"page d'accueil de baltesco";s:9:"is_hidden";s:1:"0";}}

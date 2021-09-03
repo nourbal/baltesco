@@ -1,58 +1,118 @@
-1587786772a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:909:"description = "footer of the page"
-==
-
-<!-- Footer -->
-<footer class="footer text-center">
-<div class="container">
-  <ul class="list-inline mb-5">
-    <li class="list-inline-item">
-      <a class="social-link rounded-circle text-white mr-3" href="#">
-        <i class="icon-social-facebook"></i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="social-link rounded-circle text-white mr-3" href="#">
-        <i class="icon-social-twitter"></i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="social-link rounded-circle text-white" href="#">
-        <i class="icon-social-github"></i>
-      </a>
-    </li>
-  </ul>
-  <p class="text-muted small mb-0">Copyright &copy; baltesco 2020</p>
-</div>
-</footer>
-
-<!-- Scroll to Top Button-->
-<a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-<i class="fas fa-angle-up"></i>
-</a>";s:5:"mtime";i:1587786127;s:6:"markup";s:867:"<!-- Footer -->
-<footer class="footer text-center">
-<div class="container">
-  <ul class="list-inline mb-5">
-    <li class="list-inline-item">
-      <a class="social-link rounded-circle text-white mr-3" href="#">
-        <i class="icon-social-facebook"></i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="social-link rounded-circle text-white mr-3" href="#">
-        <i class="icon-social-twitter"></i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="social-link rounded-circle text-white" href="#">
-        <i class="icon-social-github"></i>
-      </a>
-    </li>
-  </ul>
-  <p class="text-muted small mb-0">Copyright &copy; baltesco 2020</p>
-</div>
-</footer>
-
-<!-- Scroll to Top Button-->
-<a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-<i class="fas fa-angle-up"></i>
-</a>";s:4:"code";N;s:11:"description";s:18:"footer of the page";}}
+1630711254a:1:{s:10:"footer.htm";a:6:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:2941:"==
+<footer>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <ul class="sociel">
+                        <li> <a href="https://web.facebook.com/C.Baltesco"><i class="fa fa-facebook"></i></a></li>
+                        <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li> <a href="#"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="contact">
+                        <h3>nous contacter</h3>
+                        <ul class="lik">
+                            <li><i class="fa fa-envelope-o" aria-hidden="true"></i> baltescoop@gmail.com</li>
+                            <li><i class="fa fa-phone"></i> (+212)670028569</li>
+                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> Maroc, ouarzazate</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="contact">
+                        <h3>Liens</h3>
+                        <ul class="lik">
+                            <li> <a href="#">Accueil</a></li>
+                            <li> <a href="#">Qui somme-nous?</a></li>
+                            <li> <a href="#">Produits</a></li>
+                            <li> <a href="#">Blog</a></li>
+                            <li> <a href="#">Nous contacter</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="contact">
+                        <h3>Nos services</h3>
+                        <ul class="lik">
+                            <li> <a href="#">Mécatronique automobile</a></li>
+                            <li> <a href="#">Formations</a></li>
+                            <li> <a href="#">Installation GPS, Radars et caméra ...</a></li>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="contact">
+                        <h3>Baltesco</h3>
+                        <span>
+                            La coopérative BALTESCO a pour objectif de satisfaire vos besoins de Mécatronique automobile; Formations de qualités;Installation des composantes technologiques des véhicules" GPS,Radars et Camera de recule,..." . Autres services.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright {{ 'now' | date('Y') }} Tous droits réservés par <u>baltesco</u></p>
+        </div>
+    </div>
+</footer>";s:5:"mtime";i:1613146288;s:6:"markup";s:2938:"<footer>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <ul class="sociel">
+                        <li> <a href="https://web.facebook.com/C.Baltesco"><i class="fa fa-facebook"></i></a></li>
+                        <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li> <a href="#"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="contact">
+                        <h3>nous contacter</h3>
+                        <ul class="lik">
+                            <li><i class="fa fa-envelope-o" aria-hidden="true"></i> baltescoop@gmail.com</li>
+                            <li><i class="fa fa-phone"></i> (+212)670028569</li>
+                            <li><i class="fa fa-map-marker" aria-hidden="true"></i> Maroc, ouarzazate</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="contact">
+                        <h3>Liens</h3>
+                        <ul class="lik">
+                            <li> <a href="#">Accueil</a></li>
+                            <li> <a href="#">Qui somme-nous?</a></li>
+                            <li> <a href="#">Produits</a></li>
+                            <li> <a href="#">Blog</a></li>
+                            <li> <a href="#">Nous contacter</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="contact">
+                        <h3>Nos services</h3>
+                        <ul class="lik">
+                            <li> <a href="#">Mécatronique automobile</a></li>
+                            <li> <a href="#">Formations</a></li>
+                            <li> <a href="#">Installation GPS, Radars et caméra ...</a></li>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                    <div class="contact">
+                        <h3>Baltesco</h3>
+                        <span>
+                            La coopérative BALTESCO a pour objectif de satisfaire vos besoins de Mécatronique automobile; Formations de qualités;Installation des composantes technologiques des véhicules" GPS,Radars et Camera de recule,..." . Autres services.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright {{ 'now' | date('Y') }} Tous droits réservés par <u>baltesco</u></p>
+        </div>
+    </div>
+</footer>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}
